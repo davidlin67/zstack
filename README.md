@@ -1,10 +1,10 @@
-# zstack
+# Zstack
 
 Zwift’s Codex-native engineering workflows for design, implementation, verification, and review.
 
 Start with **zmode**. Give it a goal and a checkable finish condition; it selects a playbook and works toward a verified result.
 
-## install
+## Install
 
 Skills are already discoverable in this checkout through `.agents/skills/`. Start a new Codex chat in this repository and invoke `$zmode`.
 
@@ -19,7 +19,7 @@ For personal use across repositories, use `--user` instead of `--project`. The i
 
 The root `plugin.json` also packages the skills for the Codex plugin system, including OpenAI interface metadata and `$setup-zstack` onboarding. See the [Codex platform contract](./docs/harness/codex.md) for packaging, tool behavior, and platform limits.
 
-## get started
+## Get started
 
 1. Optionally run [`$setup-zstack`](./skills/setup-zstack/SKILL.md) to record per-role preferences. Every role inherits the parent chat's model by default.
 2. Use [`$zmode`](./skills/zmode/SKILL.md) for a task that needs rigor, with a goal and a checkable finish condition.
@@ -30,11 +30,11 @@ $zmode users get two notifications after a retry. reproduce first, then fix and 
 
 The [guide](./docs/guide/README.md) walks through setup, design, verification, and longer runs. [`$zmode-help`](./skills/zmode-help/SKILL.md) answers questions without starting a run.
 
-## usage
+## Usage
 
 `$zmode` reads your request, selects a playbook, and uses other skills as needed. Explicit invocation uses `$name`; an agent can also read the corresponding `skills/<name>/SKILL.md` and follow it. No slash-command aliases or custom subagent types need to be registered.
 
-### just use [`$zmode`](./skills/zmode/SKILL.md)
+### Just use [`$zmode`](./skills/zmode/SKILL.md)
 
 zmode is the entry point for rigorous engineering work. It includes twenty-two playbooks:
 
@@ -92,7 +92,7 @@ To keep the workflow active for a task, say "use `$zmode` for this task and its 
 
 Long runs continue in the active chat until their finish condition is met. Use available Codex goal tools only when the user explicitly requests a goal; scheduled automations are for recurring work. Neither is a substitute for watching an active job through completion.
 
-## skills
+## Akills
 
 [`$zmode`](./skills/zmode/SKILL.md) runs most of these for you when a step needs them (`why`, `architect`, `arena`, `swarm`, `interrogate`, `unslop`, `no-comments`, `technical-writing`, `tdd`, and the principles). the table below is for when you want one directly:
 
@@ -149,7 +149,7 @@ $interrogate review this pr.
 
 
 
-### examples
+### Examples
 
 Start a task with [`$zmode`](./skills/zmode/SKILL.md) and let it select the playbook. Invoke a narrower skill directly when its outcome matches the task.
 
@@ -196,13 +196,13 @@ help:              $zmode-help which skill should i use to review this branch?
 
 </details>
 
-## agent briefs
+## Agent briefs
 
 [`agents/zmode-agent.md`](./agents/zmode-agent.md) and [`agents/comment-reviewer.md`](./agents/comment-reviewer.md) are reusable briefs. The coordinator reads the relevant brief and passes its instructions to an available Codex subagent tool. Markdown files do not register a `subagent_type`.
 
 Subagents inherit the parent model. An explicit user choice can be applied only if the session supports it. Give parallel writers distinct file ownership or separate worktrees; spawning an agent alone does not isolate its filesystem.
 
-## principles
+## Principles
 
 twenty-four short skills, one principle each. `zmode` indexes them inline and reads that index at task start. the standalone files are there so other skills can reference a principle by name, and so the index can point at the full rule for each.
 
@@ -238,17 +238,17 @@ twenty-four short skills, one principle each. `zmode` indexes them inline and re
 
 </details>
 
-## tools and customization
+## Tools and customization
 
 Use the tools actually available in the session. Browser verification can use a connected browser tool, an existing harness, or the project's CLI. Skill authoring uses Codex's `skill-creator` when available. Cleanup can be performed directly; this edition does not require Cursor team plugins.
 
 To create a personal workflow, use [`$automate-me`](./skills/automate-me/SKILL.md). To capture lessons, use [`$reflect`](./skills/reflect/SKILL.md). Model preferences from [`$setup-zstack`](./skills/setup-zstack/SKILL.md) live in `.agents/zstack-models.md`. Skills read them explicitly; the file does not change Codex settings or grant access to a model.
 
-## automations
+## Automations
 
 The dormant [Ztriage pack](./automations/ztriage/README.md) triages Slack issue reports and reproduces confirmed bugs. Point Codex at [`FOR_AGENTS.md`](./automations/ztriage/FOR_AGENTS.md) and name a target repository to set it up. Codex scheduling and connected Slack capabilities must be available; no automation or external message is enabled just by installing this collection.
 
-## development
+## Development
 
 ```bash
 python3 scripts/validate-codex.py
