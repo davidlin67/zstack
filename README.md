@@ -2,7 +2,7 @@
 
 Zwift’s Codex-native engineering workflows for design, implementation, verification, and review.
 
-Start with **zmart mode**, pronounced **“smart mode.”** Give it a goal and a checkable finish condition; it selects a playbook and works toward a verified result.
+Start with **zmode**, Give it a goal and a checkable finish condition; it selects a playbook and works toward a verified result.
 
 ## install
 
