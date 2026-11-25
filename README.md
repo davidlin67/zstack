@@ -256,6 +256,6 @@ python3 scripts/validate-codex.py
 
 The validator needs Python 3 and PyYAML (`python3 -m pip install pyyaml` if absent). Runtime tools have their own tests under `skills/zmode/scripts/` and `skills/statechart/scripts/`. See [AGENTS.md](./AGENTS.md) for contribution guidance and [the file review](./docs/codex-file-review.tsv) for migration coverage.
 
-## notices
+## Notices
 
 Source attribution is retained in [NOTICE.md](./NOTICE.md).
