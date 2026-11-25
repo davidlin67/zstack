@@ -1,0 +1,95 @@
+schema_version: 2
+
+automations:
+  triage_name: "ztriage-triage"
+  reproduce_name: "ztriage-reproduce"
+
+slack:
+  source_channel_id: "SOURCE_CHANNEL_ID"
+  operations_channel_id: ""
+  triage_identity_user_id: "TRIAGE_IDENTITY_USER_ID"
+  read_action: "configured-slack-read-action"
+  thread_post_action: "configured-slack-thread-post-action"
+  file_download_action: "configured-slack-file-download-action"
+  operations_edit_action: "configured-slack-edit-action"
+  prefer_connector_tools: true
+  optional_bot_token_env: "ZTRIAGE_SLACK_BOT_TOKEN"
+  allow_source_root_posts: false
+  allow_worker_slack_writes: false
+
+repository:
+  url: "https://github.com/example-org/example-repo"
+  default_branch: "main"
+  pull_request_action: "configured-draft-pull-request-action"
+  pull_request_url_format: "https://github.com/{owner}/{repo}/pull/{number}"
+  draft_only: true
+
+tracker:
+  type: "linear"
+  adapter_skill_name: "issue-tracker-adapter-placeholder"
+  team: "team-placeholder"
+  project: "project-placeholder"
+  labels:
+    bug: "bug-label-placeholder"
+    performance: "performance-label-placeholder"
+    intake: "intake-label-placeholder"
+    needs_repro: "needs-repro-label-placeholder"
+  status: "intake-status-placeholder"
+  source_link_title: "Slack report"
+  require_compensation_action: true
+
+routing:
+  map_path: ".agents/ztriage/routing.md"
+  owner_pings_default: false
+  allow_feature_owner_ping: false
+  allow_confirmed_regression_author_ping: false
+
+control:
+  skill_name: "control-target-app"
+  feature_map_path: ".agents/ztriage/feature-map.md"
+  environment: "safe-test-environment-placeholder"
+  artifact_directory: "/tmp/ztriage-artifacts"
+  artifact_retention_hours: 24
+
+verdict_markers:
+  bug: "[ztriage:bug]"
+  performance: "[ztriage:performance]"
+  other: "[ztriage:other]"
+  tracker_attribute: "tracker"
+
+status_emoji:
+  seen: "👀"
+  reproducing: "🔎"
+  reproduced: "✅"
+  could_not_reproduce: "⚪"
+  blocked: "⛔"
+  fixing: "🛠️"
+  fix_failed: "❌"
+  pull_request_opened: "🔗"
+
+budgets:
+  poll_seconds: 45
+  verdict_wait_minutes: 45
+  triage_follow_up_minutes: 10
+  triage_total_minutes: 30
+  repro_minutes: 60
+  rejection_window_minutes: 10
+  fix_minutes: 90
+  operations_follow_up_minutes: 45
+
+models:
+  triage: "inherit-parent"
+  reproduce: "inherit-parent"
+  code: "inherit-parent"
+  media_review: "inherit-parent"
+
+# These are pack configuration fields, not automation_update API parameters.
+# Polling stays disabled until an adapter meets references/delivery.md.
+delivery:
+  mode: "manual"
+  state_path: "user-configured-durable-state-path-outside-checkouts"
+  initial_watermark: "explicit-start-timestamp"
+  maximum_reports_per_run: 1
+  dedupe_retention_days: 30
+  claim_adapter: "user-configured-atomic-claim-adapter-or-none"
+  schedule: "user-selected-local-schedule-or-none"

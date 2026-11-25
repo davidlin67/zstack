@@ -1,0 +1,39 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "zstack",
+  "version": "0.15.48",
+  "description": "Zwift’s Codex-native engineering workflows for design, implementation, verification, and review.",
+  "author": {
+    "name": "Zwift"
+  },
+  "homepage": "https://github.com/davidlin67/zstack",
+  "repository": "https://github.com/davidlin67/zstack",
+  "license": "MIT",
+  "keywords": [
+    "zstack",
+    "zmart-mode",
+    "zwift",
+    "workflow",
+    "principles",
+    "subagents",
+    "codex"
+  ],
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/setup-zstack/SKILL.md",
+      "interface": {
+        "displayName": "zstack",
+        "shortDescription": "Zwift engineering workflows",
+        "longDescription": "Zwift’s Codex-native engineering workflows for design, implementation, verification, and review.",
+        "developerName": "Zwift",
+        "category": "Developer Tools",
+        "capabilities": [
+          "Engineering workflows",
+          "Verification",
+          "Code review"
+        ],
+        "brandColor": "#FC4C02"
+      }
+    }
+  }
+}

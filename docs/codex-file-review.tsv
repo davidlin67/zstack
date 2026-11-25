@@ -1,0 +1,683 @@
+path	origin	reviewer	disposition	sha256_or_link_target
+.DS_Store	original	primary	reviewed; preserved ignored OS metadata	5aedd202a64523893e2ae27316e439ab15ed69a70e47c62123a17b83a00e7860
+.agents/skills/architect	added	primary	Codex discovery link	../../skills/architect
+.agents/skills/arena	added	primary	Codex discovery link	../../skills/arena
+.agents/skills/automate-me	added	primary	Codex discovery link	../../skills/automate-me
+.agents/skills/benchmark-checklist	added	primary	Codex discovery link	../../skills/benchmark-checklist
+.agents/skills/blast-radius	added	primary	Codex discovery link	../../skills/blast-radius
+.agents/skills/bro	added	primary	Codex discovery link	../../skills/bro
+.agents/skills/correct	added	primary	Codex discovery link	../../skills/correct
+.agents/skills/create-formal-verification-skill	added	primary	Codex discovery link	../../skills/create-formal-verification-skill
+.agents/skills/create-verification-skill	added	primary	Codex discovery link	../../skills/create-verification-skill
+.agents/skills/figure-it-out	added	primary	Codex discovery link	../../skills/figure-it-out
+.agents/skills/how	added	primary	Codex discovery link	../../skills/how
+.agents/skills/in-your-own-words	added	primary	Codex discovery link	../../skills/in-your-own-words
+.agents/skills/interrogate	added	primary	Codex discovery link	../../skills/interrogate
+.agents/skills/ketchup	added	primary	Codex discovery link	../../skills/ketchup
+.agents/skills/ketchup-video	added	primary	Codex discovery link	../../skills/ketchup-video
+.agents/skills/maintain-formal-verification-skill	added	primary	Codex discovery link	../../skills/maintain-formal-verification-skill
+.agents/skills/maintain-verification-skill	added	primary	Codex discovery link	../../skills/maintain-verification-skill
+.agents/skills/make-bot-ui	added	primary	Codex discovery link	../../skills/make-bot-ui
+.agents/skills/no-comments	added	primary	Codex discovery link	../../skills/no-comments
+.agents/skills/principle-attack-the-premise	added	primary	Codex discovery link	../../skills/principle-attack-the-premise
+.agents/skills/principle-boundary-discipline	added	primary	Codex discovery link	../../skills/principle-boundary-discipline
+.agents/skills/principle-build-the-lever	added	primary	Codex discovery link	../../skills/principle-build-the-lever
+.agents/skills/principle-encode-lessons-in-structure	added	primary	Codex discovery link	../../skills/principle-encode-lessons-in-structure
+.agents/skills/principle-exhaust-the-design-space	added	primary	Codex discovery link	../../skills/principle-exhaust-the-design-space
+.agents/skills/principle-experience-first	added	primary	Codex discovery link	../../skills/principle-experience-first
+.agents/skills/principle-explain-the-number	added	primary	Codex discovery link	../../skills/principle-explain-the-number
+.agents/skills/principle-fix-root-causes	added	primary	Codex discovery link	../../skills/principle-fix-root-causes
+.agents/skills/principle-foundational-thinking	added	primary	Codex discovery link	../../skills/principle-foundational-thinking
+.agents/skills/principle-guard-the-context-window	added	primary	Codex discovery link	../../skills/principle-guard-the-context-window
+.agents/skills/principle-laziness-protocol	added	primary	Codex discovery link	../../skills/principle-laziness-protocol
+.agents/skills/principle-make-operations-idempotent	added	primary	Codex discovery link	../../skills/principle-make-operations-idempotent
+.agents/skills/principle-migrate-callers-then-delete-legacy-apis	added	primary	Codex discovery link	../../skills/principle-migrate-callers-then-delete-legacy-apis
+.agents/skills/principle-minimize-reader-load	added	primary	Codex discovery link	../../skills/principle-minimize-reader-load
+.agents/skills/principle-model-the-domain	added	primary	Codex discovery link	../../skills/principle-model-the-domain
+.agents/skills/principle-never-block-on-the-human	added	primary	Codex discovery link	../../skills/principle-never-block-on-the-human
+.agents/skills/principle-outcome-oriented-execution	added	primary	Codex discovery link	../../skills/principle-outcome-oriented-execution
+.agents/skills/principle-prove-it-works	added	primary	Codex discovery link	../../skills/principle-prove-it-works
+.agents/skills/principle-redesign-from-first-principles	added	primary	Codex discovery link	../../skills/principle-redesign-from-first-principles
+.agents/skills/principle-separate-before-serializing-shared-state	added	primary	Codex discovery link	../../skills/principle-separate-before-serializing-shared-state
+.agents/skills/principle-sequence-verifiable-units	added	primary	Codex discovery link	../../skills/principle-sequence-verifiable-units
+.agents/skills/principle-subtract-before-you-add	added	primary	Codex discovery link	../../skills/principle-subtract-before-you-add
+.agents/skills/principle-test-behavior-not-implementation	added	primary	Codex discovery link	../../skills/principle-test-behavior-not-implementation
+.agents/skills/principle-type-system-discipline	added	primary	Codex discovery link	../../skills/principle-type-system-discipline
+.agents/skills/recall	added	primary	Codex discovery link	../../skills/recall
+.agents/skills/reflect	added	primary	Codex discovery link	../../skills/reflect
+.agents/skills/reframe	added	primary	Codex discovery link	../../skills/reframe
+.agents/skills/setup-zstack	added	primary	Codex discovery link	../../skills/setup-zstack
+.agents/skills/sharpen	added	primary	Codex discovery link	../../skills/sharpen
+.agents/skills/show-me-your-work	added	primary	Codex discovery link	../../skills/show-me-your-work
+.agents/skills/statechart	added	primary	Codex discovery link	../../skills/statechart
+.agents/skills/swarm	added	primary	Codex discovery link	../../skills/swarm
+.agents/skills/tdd	added	primary	Codex discovery link	../../skills/tdd
+.agents/skills/teach	added	primary	Codex discovery link	../../skills/teach
+.agents/skills/technical-writing	added	primary	Codex discovery link	../../skills/technical-writing
+.agents/skills/typescript-best-practices	added	primary	Codex discovery link	../../skills/typescript-best-practices
+.agents/skills/unslop	added	primary	Codex discovery link	../../skills/unslop
+.agents/skills/why	added	primary	Codex discovery link	../../skills/why
+.agents/skills/zmart-help	added	primary	Codex discovery link	../../skills/zmart-help
+.agents/skills/zmart-mode	added	primary	Codex discovery link	../../skills/zmart-mode
+.cursor-plugin/plugin.json	original	primary	replaced by portable root plugin.json	-
+.gitignore	original	primary	reviewed for Codex and Zwift branding	c691721a0a7fc8dbb4767221f65c0c273faf0f30ae9ae7def6a2a6192676fa10
+AGENTS.md	added	primary	reviewed for Codex and Zwift branding	752a570fa9ac8101a9f3b53d16c9041b7394b4c6b378ee835786f633b3a202c8
+NOTICE.md	added	primary	separate source attribution	a06b55be61945b31568390d5b05d0a68f62052be7ec40dcce439953b3504221a
+README.md	original	primary	reviewed for Codex and Zwift branding	611123347a11910420e1e5ded2fb9590c529098a85f1b4b63dc87ad2e6cd82ce
+agents/comment-reviewer.md	original	automations subagent	reviewed for Codex and Zwift branding	67d11edf8b243521b35a940e810a73e23436ed6d2345ff2e0ed86ddcf1052373
+agents/zmart-agent.md	original	automations subagent	reviewed for Codex and Zwift branding	ed385d6d26a5692b96a1796451b4c925710b3934c67ef30e208a8fb4554ac0e9
+assets/logo.png	original	primary	image removed at user request	-
+automations/ztriage/FOR_AGENTS.md	original	automations subagent	reviewed for Codex and Zwift branding	84ddb3dac7fa254c293c5b30ff6425071db92c9acad74c7d46cda3b804505359
+automations/ztriage/README.md	original	automations subagent	reviewed for Codex and Zwift branding	432ffc4e6b8cac45b3464d087d702812937888113c47b37974c6ab3203700562
+automations/ztriage/references/delivery.md	added	automations subagent	reviewed for Codex and Zwift branding	28fb50407e2345b38f7629106a74dd3867e86156a2b05a4f3759b73452aea7d9
+automations/ztriage/skills/reproduce-and-fix-issues/SKILL.md	original	automations subagent	reviewed for Codex and Zwift branding	a819db1e6da477a770ced5b187c666513ba70de9080d94a17a1f2416c7990fb0
+automations/ztriage/skills/reproduce-and-fix-issues/agents/openai.yaml	added	automations subagent	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+automations/ztriage/skills/reproduce-and-fix-issues/references/control-adapter.md	original	automations subagent	reviewed for Codex and Zwift branding	c535b0026c11f0d37f18e29f713d8ae50ee3ce2774437939fde9d4912883e7a3
+automations/ztriage/skills/reproduce-and-fix-issues/references/feature-map.example.md	original	automations subagent	reviewed for Codex and Zwift branding	b6d4c31b783ec4477b84463b52d1f34c8172e72ea8d0976ff1806c20b10ea5c9
+automations/ztriage/skills/reproduce-and-fix-issues/references/verify-existing-fix.md	original	automations subagent	reviewed for Codex and Zwift branding	c90eae00abcdec71a58fa8d60f2c495b082a526ad50b8e8e494837609129bf29
+automations/ztriage/skills/setup-ztriage/SKILL.md	original	automations subagent	reviewed for Codex and Zwift branding	18a31f2ad51587e8335d192963a3ac685a2c617fb7014127ee153ed4ab3bd530
+automations/ztriage/skills/setup-ztriage/agents/openai.yaml	added	automations subagent	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+automations/ztriage/skills/triage-issue-reports/SKILL.md	original	automations subagent	reviewed for Codex and Zwift branding	f647872ca28fcd0808d0254e1129f492d25412e3d13d527808d5c07a0a10ded6
+automations/ztriage/skills/triage-issue-reports/agents/openai.yaml	added	automations subagent	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+automations/ztriage/skills/triage-issue-reports/references/routing.example.md	original	automations subagent	reviewed for Codex and Zwift branding	49b96b5635b7e12c8edbebe5f0455141496e8b8b0e64aa612a09f867a364be62
+automations/ztriage/templates/configuration.example.yaml	original	automations subagent	reviewed for Codex and Zwift branding	f92a985b3579e0377bbc656a2d3ef3932a67707abd5fc377ae7aba8798068d27
+automations/ztriage/templates/reproduce-automation-prompt.md	original	automations subagent	reviewed for Codex and Zwift branding	c1b21bb410b164d5117d6ac1517af38c3f029f8491b04c4ae8ad83cb0fe35132
+automations/ztriage/templates/triage-automation-prompt.md	original	automations subagent	reviewed for Codex and Zwift branding	0022d9fdb3cddb7b1d0b12dc9fc082b17b700c3e4ff89a84e196412758e36577
+docs/codex-file-review.tsv	added	primary	review inventory	self
+docs/guide/01-setup.md	original	primary	reviewed for Codex and Zwift branding	c49e281b4440785e839d0de320a04188636c20c53754a16954a3edb20a18aedb
+docs/guide/02-zmart-mode.md	original	primary	reviewed for Codex and Zwift branding	6e9754479c99d07c1aa6f7da322ec63fa25ddcfa930c7c7fcf3c718095729b83
+docs/guide/03-understand.md	original	primary	reviewed for Codex and Zwift branding	e7d4f84ee8e9439e58f8fe52bca926d726e594ed4c4d94f036f8d7604b4e607a
+docs/guide/04-design.md	original	primary	reviewed for Codex and Zwift branding	9aa83b53bcbce63f3a91e25a158509cf932f21a6bfc6021822e939c9d920ddbe
+docs/guide/05-build-and-clean.md	original	primary	reviewed for Codex and Zwift branding	955a41e0347ab16aed88b8dcf16a63ffb510ddd557a4ade4b2fd9962f76f2186
+docs/guide/06-verify-and-ship.md	original	primary	reviewed for Codex and Zwift branding	7b589e6b9e9160ec190d52c74993f0331d237160d1dc7c14f8c507bb000f02d3
+docs/guide/07-overnight.md	original	primary	reviewed for Codex and Zwift branding	57211131e66ab6482f49bf4888be97b8502139a6cbfc025994b1bc306211a47e
+docs/guide/08-principles.md	original	primary	reviewed for Codex and Zwift branding	1674e584c5c7945ed0689f6420c4d4a5062558ed7f94d5a0a94adbdb723aefae
+docs/guide/09-make-it-yours.md	original	primary	reviewed for Codex and Zwift branding	050133abe8962576166494d7d6c688ae7678a757456d6bf968453b9d1bbd72aa
+docs/guide/10-recipes-and-pitfalls.md	original	primary	reviewed for Codex and Zwift branding	b2cbe34e70e39752d00660e3bcbb2b8079ef979a1b42380081dcdc4fa94cf731
+docs/guide/README.md	original	primary	reviewed for Codex and Zwift branding	9bdf2d44498bdb898082427ee4b2ced7a1d5de40a7464918e22878ab6b8e093a
+docs/guide/images/design.jpg	original	primary	image removed at user request	-
+docs/guide/images/overnight.jpg	original	primary	image removed at user request	-
+docs/guide/images/recipes.jpg	original	primary	image removed at user request	-
+docs/guide/images/router.jpg	original	primary	image removed at user request	-
+docs/guide/images/understanding.jpg	original	primary	image removed at user request	-
+docs/guide/images/verification.jpg	original	primary	image removed at user request	-
+docs/harness/claude-code.md	original	primary	replaced by docs/harness/codex.md	-
+docs/harness/codex.md	added	primary	reviewed for Codex and Zwift branding	a9964248846c917feb8bc42a65dba7d640cbfa63219d5ba40f40b456ca63ee11
+plugin.json	original	primary	reviewed for Codex and Zwift branding	69c8e3251e219d3348b5772fd4cddea08b35c37e3775218eebab09bd1c0f40dd
+scripts/install-skills.py	added	primary	reviewed for Codex and Zwift branding	9b7b0c43365f39f764ffc62bec28731cab1d0c8d4c7c70212c3056f39cbf3ac9
+scripts/validate-codex.py	added	primary	reviewed for Codex and Zwift branding	b276315adcef21a5f26ae55d808e584f01a782ea91eda919b7c2062cf71e6d3e
+skills/architect/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	72ad94caaff0afa42640f9842984f9256ecdda41c65b739005b6c845669c39a6
+skills/architect/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/arena/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	57837c969fcaa1e735fe7fe84f0db061d4eb4d536d8973a4134f7dd8cc6f8d7a
+skills/arena/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/automate-me/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	ab99de99195cda66a0154435d479b6108fc79b40ec5cef9fdf584de44b5a556b
+skills/automate-me/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/benchmark-checklist/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	90fac160b767743c04a31e031f2831865580685bcdfb8d23c928b199d3b0edb9
+skills/benchmark-checklist/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/blast-radius/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	120cbe362b18cfb784c1bfc0edc8f55e8a808c4aad26c84ed111871cf7ad2091
+skills/blast-radius/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/bro/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	8b822d47b9299627f5e4fe42684a031105792c8531443da1ae3423adfa2de96f
+skills/bro/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/correct/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	231d26769216a0f82481814fc519e7da747309836652678e1299ea197c85d169
+skills/correct/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/create-formal-verification-skill/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	d4c4b4acd9b3d1153d25007c451a9b2e8beac9074c1763b8de621cae210f27b2
+skills/create-formal-verification-skill/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/create-verification-skill/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	b88a228dd9e3a9a0affe1ca744fa42d14d099790cb8fb95cbb01e69353908c44
+skills/create-verification-skill/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/create-verification-skill/references/feature-map-example/README.md	original	core-skills subagent	reviewed for Codex and Zwift branding	cb7bd782cf89968a4ba3d58a5151db837430db92d19a6f52a906973b77b516ba
+skills/create-verification-skill/references/feature-map-example/create-note.md	original	core-skills subagent	reviewed for Codex and Zwift branding	644a44c74f35d38c2feb7cd05a0121fdebbb623e8dc376c185b565a581d1ccf7
+skills/create-verification-skill/references/feature-map-example/search.md	original	core-skills subagent	reviewed for Codex and Zwift branding	6e87b9e7f2791a7776ba1bb83f371cd285c306c67f19d245cc4dd6ca3015c823
+skills/figure-it-out/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	e1797c9075176bbb9499d025b0bcbd84c2dd9d0763178fd9741bd00d69e6b2bf
+skills/figure-it-out/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/how/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	dec4fe2598776a964c85bedfc5e1f1ae09023f39e862e2187dbd068dc6f4221d
+skills/how/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/in-your-own-words/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	0b628a0f35da18aecd2e506bf4a8ae849b2e2e02f27b33cacf2b9a0e00353dbd
+skills/in-your-own-words/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/interrogate/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	5ccb649f102d1149a28a9fd8dd23ce9c0c5a049728e4bb226a1c52bfa619a359
+skills/interrogate/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/ketchup-video/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	2c5b16f740b7b5269f3916282da73108fdcf193dcb99c650ac141b53d37f2a22
+skills/ketchup-video/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/ketchup/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	b2471ad6d05f820c7c952f1a34e257882840f1eb6c912d9a5180fc9faec4c269
+skills/ketchup/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/maintain-formal-verification-skill/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	bbf7a519ad85748a0b0865ca7ff333697303e91a771fc08f08b900df3507becc
+skills/maintain-formal-verification-skill/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/maintain-verification-skill/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	c67679000487efe4f2b7efd6ba97dc2032f44c6196a3013c93357f694e3ab1f8
+skills/maintain-verification-skill/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/make-bot-ui/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	a168098367042bfbaa9dba6aaf890efbb944fa0881ef5ee94047f076b370a1c7
+skills/make-bot-ui/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/no-comments/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	3a072119eb0473a9079805c4c5459df31b3f4b9b742e8ca26e58bf9849b7dfe9
+skills/no-comments/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/principle-attack-the-premise/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	761024a26ce97aa9d4c46647782c8fe852eadb7ef0c9a431d93ac74515340b62
+skills/principle-attack-the-premise/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/principle-boundary-discipline/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	24084192288cad748db09422cc14e6e0f1fb8ae10980762e7bc5ab8e60e35425
+skills/principle-boundary-discipline/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/principle-build-the-lever/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	0c37e71945f0dfcd0c4517f262102402a1be84b27d2c32e29713ecbeb37a3b8c
+skills/principle-build-the-lever/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/principle-encode-lessons-in-structure/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	d10983ec0f3637b6e114ed25dc0f6720a40f302e2165223a17ee2372b46afc68
+skills/principle-encode-lessons-in-structure/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/principle-exhaust-the-design-space/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	d39814747a6770075e9e950094c1704104aa61b0c26fc2075feb2c8bade700e9
+skills/principle-exhaust-the-design-space/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/principle-experience-first/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	3013367ce42fabb55799ffbcc51ad20b2ae7ec1b898bad4ac4ceaa2f093edbe1
+skills/principle-experience-first/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/principle-explain-the-number/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	d1c818924bb9de68e0e7e342349bb0b0de0273576341a64c7c88a2a5c9225f65
+skills/principle-explain-the-number/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/principle-fix-root-causes/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	2bb6dd9bd6afccd92637cb75a741d9947b74256cf45ec2cbb85d2deb316d0fa0
+skills/principle-fix-root-causes/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/principle-foundational-thinking/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	188e69ee3296cffd11727859dd97b3a8eb44b94758d338c9cf67ee3562a9a5ab
+skills/principle-foundational-thinking/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/principle-guard-the-context-window/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	478752e80498d65c173f52c95db65322bbc98fb31139e406e160e54a5a11aa2b
+skills/principle-guard-the-context-window/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/principle-laziness-protocol/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	44ec0cc302105cff3da36e1d192aba697a5dffd6c42ec3bf37df447b8a960960
+skills/principle-laziness-protocol/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/principle-make-operations-idempotent/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	34b1bda3af25110e605180b33969d7b3325c5d4b058f8c46e71c335091c9a657
+skills/principle-make-operations-idempotent/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/principle-migrate-callers-then-delete-legacy-apis/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	25c0840e4f9fef35fd1ede4292b95a4b79c61bbaab31131e1de2afa1a7319bfa
+skills/principle-migrate-callers-then-delete-legacy-apis/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/principle-minimize-reader-load/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	9377c44dc5de552a0ac97f5d103f8a15c5eec3b3e25b901bf774febe3ce7ee43
+skills/principle-minimize-reader-load/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/principle-model-the-domain/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	99eb491337572d91ebff90b8ae1fff44a7252eaaeb2601810cbe4c3208f8bcea
+skills/principle-model-the-domain/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/principle-never-block-on-the-human/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	a279317c80badbdf548c5b422ad04c01238bb80b7b771a14dc6841282e3afc9a
+skills/principle-never-block-on-the-human/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/principle-outcome-oriented-execution/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	922ade1be5f671575b3c93367c3d08c9dbb2f7444a42bacbfb834656724d61ac
+skills/principle-outcome-oriented-execution/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/principle-prove-it-works/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	9e98946591ea63763d4fca5b095654bb067f37d8b5691835d1d031f8ff3c0f60
+skills/principle-prove-it-works/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/principle-redesign-from-first-principles/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	527e7bb93c596a629be7fef6edfb26ff8828c514a9ad8d729b09ae2f0024a420
+skills/principle-redesign-from-first-principles/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/principle-separate-before-serializing-shared-state/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	62222707f2a8bef68ddb9fa540cab4fb6c562087999797cc299e44c2f1a3c4f2
+skills/principle-separate-before-serializing-shared-state/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/principle-sequence-verifiable-units/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	953ee6e690792930a03c1148a752729e232ddd88320536a6af2ef9fee0dab642
+skills/principle-sequence-verifiable-units/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/principle-subtract-before-you-add/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	a273e3955fc39223088149d7a1a955b5d44e143fd1d9d4c8e4945353b8b81344
+skills/principle-subtract-before-you-add/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/principle-test-behavior-not-implementation/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	1a21cc45de1abb1d16e7b8c2d1e4775afa41d4d0d370ad05fc3424f5a0597bcd
+skills/principle-test-behavior-not-implementation/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/principle-type-system-discipline/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	36d08db9e66e1a59db47f1d4a2c3b97981302a65a9107d6a69b22d9ef31530a9
+skills/principle-type-system-discipline/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/recall/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	ba76330a55e10da9a813d5fdcc9448a7ce58e8ffd976803835433d7b68a4571b
+skills/recall/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/reflect/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	7da2eb18811e1a67a35570b8c1e10e50086ab65c4280c5551b8456491b0c5799
+skills/reflect/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/reframe/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	fb2158a42dc801d14837ef9069d6bc655a9fef63043eb16afb63e1c03842d7a1
+skills/reframe/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/setup-zstack/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	73e92af7d68eca17366d9edce1aa83acf41f68bdc95fb1d8a9973c9cc34e2515
+skills/sharpen/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	7492fe47918f2bb5d50ca3c34d164646e7e41aca5da1341225964f0b0c1a3355
+skills/sharpen/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/show-me-your-work/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	4101e0ea2fd50b0dd5f8463ed644af3651d9f055f5fccf962db04c189cbcf031
+skills/show-me-your-work/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/show-me-your-work/references/decision-log-template.tsv	original	core-skills subagent	reviewed for Codex and Zwift branding	6779378006a2f5225e8c06deb84f1d913fb532041ebbb6e50d94600bfe3f4b76
+skills/show-me-your-work/scripts/log.sh	original	core-skills subagent	reviewed for Codex and Zwift branding	a65a4bc5fb7cdeadbdb7b7ff1ca4682f4d9c42420942b2977cd17b46c4ac338e
+skills/statechart/SKILL.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	845d50c895f41f07ef67ca5c4de837ad326ece9e3393b59e476bdd1a0527c88c
+skills/statechart/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/statechart/references/render.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	8cca446eb0c8f87f2ef7b97c4b149f59aacdc153134b4217c4bcde09b10ac3c4
+skills/statechart/scripts/backends/cfg.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	aea4d8766d214e7fa08f4881f1037319655e75eb56652e1b6d5d4f13a162e3e1
+skills/statechart/scripts/backends/mermaid.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	ce293d34ce3928d93329bd6d1a889d5722620008dae4339add79ef226c3f9b88
+skills/statechart/scripts/backends/plain-text.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	e2bedb855eb3806ec3fe7a7bfa49baa309fb4cf0da425b5fe1e0686268ce255a
+skills/statechart/scripts/backends/report.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	730b4048578ab0468e1581f16fec60b246e321161effb68e481efb373f0f2501
+skills/statechart/scripts/frontends/config.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	5eeab1e755f20a2c83b408c6503fdc9c6b10c971d8dedad3f912bd15f9763daf
+skills/statechart/scripts/frontends/dot.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	cd2e681ff58c759ddeaa17c2f3d4af1f0c3e71273566be555187b5d0e7767dac
+skills/statechart/scripts/frontends/marks.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	eb0120e61a4004a435c7b7c46916da9dc8b2fa8696ed0d3eb64dc953fed3ab11
+skills/statechart/scripts/frontends/messages.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	36bfc6fb3ffa86897661efb2aa67bd95b55a4da9a3e952831f6e0668826b4b92
+skills/statechart/scripts/frontends/spec.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	450cdfc8d0577a96818ca3697efebbbf70b530a4ba7e3eee03cf1ba8d3f1a0fd
+skills/statechart/scripts/frontends/trace.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	7d083cf89b81c41556fc3fd5f07019886e0f6783c632475e7181ac4b81887367
+skills/statechart/scripts/frontends/value.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	7c54be394b7a10f60591858a0f08fb1e8dc0941df1f38ede07fbe7719ff56da0
+skills/statechart/scripts/frontends/verdict.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	0d0a9d6b6d6da5a7c48851b86d9d041f22982404dda6288795a1715138d7008b
+skills/statechart/scripts/frontends/view.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	2c0af8939321c5aaed4b6ecac8ce6a98d0e6774d8bd15d4b02fe4f406b8c9620
+skills/statechart/scripts/ir.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	5602beca4e4ac08421cfa07e4da989f0e75439f1d136cc923226909e771dc7ff
+skills/statechart/scripts/janitor.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	defac41e4cbfca3044c5078c544a0667f857a610c500c5ec96cb3bfaeec7120b
+skills/statechart/scripts/kill.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	058df69d1184029e55d7e81b4fd37a6dc8557c9208979fb7032482d5ab0db448
+skills/statechart/scripts/package.json	original	mode-runtime subagent	reviewed for Codex and Zwift branding	e24763dece18d738e5d08c833072fcfb1e99501cc2c25d750fe2e5fa0424e2c9
+skills/statechart/scripts/passes/annotate.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	dc8eeee09c3a9a0c060f32fb1d554e01bd80e5265751cdeb041ef3e19561b92a
+skills/statechart/scripts/passes/label.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	b5ef402369c5e7846be1fd39165e95cbfe715fc36eb9331a0401b26523c539c9
+skills/statechart/scripts/passes/lift.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	8977dddc6c93bb2e3914d5b50760eb66876107ba51e2b8cf9e18611b4c40c89c
+skills/statechart/scripts/passes/loop-check.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	07d459385849aa35834040bf34e279c39baba68244ec9da17c57703a6ee8e2d4
+skills/statechart/scripts/passes/paths.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	9af1066b007ef86cb05c5e278eef09f090f1e46eb91d356e5146edbd4fee4ec7
+skills/statechart/scripts/passes/reach.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	b52b38f926814937b733221b40bd31075a69a2fb91ecbce2164752a8684bc5d6
+skills/statechart/scripts/passes/region-check.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	8a6e0618740a14bb7048f6563b4324958177f4685d4d6d90364cc6245b1498b4
+skills/statechart/scripts/passes/regions.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	d740ebfdbb5ec7b4984412a635a596b43af7a77b8bcb49a1463c8afa75299f72
+skills/statechart/scripts/pipeline.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	8aa8d9295ab6762f7f2ffae91a0aee98b1a1314747c875edba4598fdab8ed543
+skills/statechart/scripts/run.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	fb6ec4a1835a15e6e72df28bb932b8df5a4c04c5de6f9c270fd63ff5cd148dc7
+skills/statechart/scripts/statechart	original	mode-runtime subagent	reviewed for Codex and Zwift branding	aeffb7077850fd4c225e3d18049ca6ed7b988cf48e88cd8463526a7feaa74d13
+skills/statechart/scripts/statechart.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	5d5feff7d78204c828a8e30d531d23419234a81a7149dc3e48efb08dd770d6c1
+skills/statechart/scripts/test/ConfigOracle.java	original	mode-runtime subagent	reviewed for Codex and Zwift branding	4f3367314f0fc34e39777d40dd31f96451985b77834fd0e925716aa3b169a021
+skills/statechart/scripts/test/chart.test.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	e5c4bb0dcb9bcb570066d427ee768b2eb01aea87aa3bd9136c8e92459f513ae4
+skills/statechart/scripts/test/charts/Braces.mmd	original	mode-runtime subagent	reviewed for Codex and Zwift branding	dad412ccff506f4ace1b40617bcc2f103ad0372ddc0135ab26535fc488fef8d3
+skills/statechart/scripts/test/charts/Escapes.mmd	original	mode-runtime subagent	reviewed for Codex and Zwift branding	211adde39edbb349e2d8acc2f95762bfb7da1fb030e5dc815a8982775e1cd372
+skills/statechart/scripts/test/charts/Phases.mmd	original	mode-runtime subagent	reviewed for Codex and Zwift branding	bf6062f6a0ee7b8d487882a1810d17951606fd536b2ee370aecc3d3914da0339
+skills/statechart/scripts/test/cli.test.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	4b6bcf78204594e3224e1acc5b7bd1c4f47542fb8fcbb9f0db6625c33cb64549
+skills/statechart/scripts/test/config-fuzz.test.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a258744d47529418d32de0fd47aa2d013298581b73064f7ba4d628e4d5471321
+skills/statechart/scripts/test/corpus.test.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	b280d27ca7c33bb9a8df2fbbd6d59c5b8c41e3ceaad0c7c73fba4ce9af85824b
+skills/statechart/scripts/test/corpus/Counter/ChartRun.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	08389583d1f0c1d97efcfe0b0d272d22315e19e2b432056a2067fa51267061cf
+skills/statechart/scripts/test/corpus/Counter/Counter.cfg	original	mode-runtime subagent	reviewed for Codex and Zwift branding	ee4c110b174a3bd2cc54226420ba2c979682be57c7964273b8a30d6395dc2c3f
+skills/statechart/scripts/test/corpus/Counter/Counter.tla	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a277dd9ba29b50b21d87d5ebbbaff3ed87949e427ce563ddb37ede7ba728da05
+skills/statechart/scripts/test/corpus/Counter/chart.mmd	original	mode-runtime subagent	reviewed for Codex and Zwift branding	bcdc46dccfa6172fa9e36c3236fb1cb9221d0648534499d5fe0c51ebd13d22b0
+skills/statechart/scripts/test/corpus/Counter/graph.dot	original	mode-runtime subagent	reviewed for Codex and Zwift branding	4c12b6f39274a6227df5837a066430cc2ce5b928d0c8cf63269bd428367c7026
+skills/statechart/scripts/test/corpus/Counter/report.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	e52a2affff3ca2d85c6ee87a4543ca99024fa0db8a3d48070a6752520121a413
+skills/statechart/scripts/test/corpus/Counter/sany.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	9041a7726d3e497fb10c5d67293d76f3318d448ce08c371a90454c43c65722c1
+skills/statechart/scripts/test/corpus/Counter/verdict-1.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	b52d28c22ebbd7c2004d47bede8ac44f8a09dc2c98c5c595dc5c4dfe649fec6d
+skills/statechart/scripts/test/corpus/CounterAction/ChartRun.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	c8bd25e31a2b54c17155f8e95c149f31d56c1d5928860bc0a03cca9e882c6626
+skills/statechart/scripts/test/corpus/CounterAction/CounterAction.cfg	original	mode-runtime subagent	reviewed for Codex and Zwift branding	4666d0659cf69047aa41e64a48f307cff103a6b0815d85ead5bd4c0386a0f5b7
+skills/statechart/scripts/test/corpus/CounterAction/CounterAction.tla	original	mode-runtime subagent	reviewed for Codex and Zwift branding	895ed84802b88a6deb9653e7baf36b1eb67b848592c91d168d84db03b73c74f5
+skills/statechart/scripts/test/corpus/CounterAction/chart.mmd	original	mode-runtime subagent	reviewed for Codex and Zwift branding	d35190a320e1b9e5cb35ae583b8367d2d10bf4cc17b1f7e94e4edf0613d01730
+skills/statechart/scripts/test/corpus/CounterAction/graph.dot	original	mode-runtime subagent	reviewed for Codex and Zwift branding	906fdbce95c4d0628441a231d9d9124d506d34f95ba08f653f3db084d13c5c1d
+skills/statechart/scripts/test/corpus/CounterAction/report.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	36d49034aab3b675026e717c876ad5da5f74468338295b399da3fd4c3b0e8d6a
+skills/statechart/scripts/test/corpus/CounterAction/sany.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	e529b1c17203bbc05da9d74a48adb9ac4f06cff3f33df94ba215daa8b315dc9a
+skills/statechart/scripts/test/corpus/CounterAction/verdict-1.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a1fb50e6c86fae1679ef3351296fd6713411a08cf8dd1790a4fd05fae8688164
+skills/statechart/scripts/test/corpus/CounterAction/verdict-1.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	dcd76f63c010283b7dd0d598aaf0ecbc6429cda4f11a2f33ff67612013683098
+skills/statechart/scripts/test/corpus/CounterAction/verdict-2.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a1fb50e6c86fae1679ef3351296fd6713411a08cf8dd1790a4fd05fae8688164
+skills/statechart/scripts/test/corpus/CounterAction/verdict-2.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	dfd4cf8c1871d528bdf200b74d83cbb85bdb66248248cb54b9488390b08d57b1
+skills/statechart/scripts/test/corpus/CounterAction/verdict-3.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	561e073045ae980619ebb9d713defa9270c5e6adf5403687e0854e4aeb0218fe
+skills/statechart/scripts/test/corpus/CounterDeadlock/ChartRun.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	03ae82f93c64ed423ab2b09650037da8c101aeabe73da83fc9279bea038dc719
+skills/statechart/scripts/test/corpus/CounterDeadlock/CounterDeadlock.cfg	original	mode-runtime subagent	reviewed for Codex and Zwift branding	394991fa4d162ed8ea74e6e5b5473af8c246ec3db12da3737fce046c41e78692
+skills/statechart/scripts/test/corpus/CounterDeadlock/CounterDeadlock.tla	original	mode-runtime subagent	reviewed for Codex and Zwift branding	d6af2fc22ab5fbe8d64ae6202187ce807e53189a43eef1af860db55db933b132
+skills/statechart/scripts/test/corpus/CounterDeadlock/chart.mmd	original	mode-runtime subagent	reviewed for Codex and Zwift branding	928b930e2d28f94e083183cc064f1dde292a5f65fcc0dfec013b04c234e6254b
+skills/statechart/scripts/test/corpus/CounterDeadlock/graph.dot	original	mode-runtime subagent	reviewed for Codex and Zwift branding	4c12b6f39274a6227df5837a066430cc2ce5b928d0c8cf63269bd428367c7026
+skills/statechart/scripts/test/corpus/CounterDeadlock/report.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	b4e4365f95f4b34abea8ffb1fde1bd39b8e8eb6f30e839d75332c6c834460c25
+skills/statechart/scripts/test/corpus/CounterDeadlock/sany.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	7a8d40cbae42b10eaea8e6dc42f28ce31892e22c77d521e2cb8d8a6d3d0f0c33
+skills/statechart/scripts/test/corpus/CounterDeadlock/verdict-1.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a1fb50e6c86fae1679ef3351296fd6713411a08cf8dd1790a4fd05fae8688164
+skills/statechart/scripts/test/corpus/CounterDeadlock/verdict-1.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	eb753f70256afe39af538b3f27476ffb9ed87cd59b2d0fbc1febbece61740c99
+skills/statechart/scripts/test/corpus/CounterDeadlock/verdict-2.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	25d4f2a86deb5e2574bb3210b67bb24fcc4afb19f93a7b65a057daa874a9d18e
+skills/statechart/scripts/test/corpus/CounterDeadlock/verdict-2.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	8697535de9d6746eb9ddc0f54f0ffc8dd9e1f128a287414c91a0c700c60f8a98
+skills/statechart/scripts/test/corpus/CounterFan/ChartRun.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a8b78ceed242bc1349f97dbc27bf65a13ba5c67bdc54e6391532243a45a34f7d
+skills/statechart/scripts/test/corpus/CounterFan/CounterFan.cfg	original	mode-runtime subagent	reviewed for Codex and Zwift branding	e2de6875a48efd06a1db4aae4d7cc5b86ff9a0b4698074049c7ee52bfb49d3f7
+skills/statechart/scripts/test/corpus/CounterFan/CounterFan.tla	original	mode-runtime subagent	reviewed for Codex and Zwift branding	1fddc670bda9ad7a900d29891aca1329a9e9f932d353ea944379f6f45bc50a5e
+skills/statechart/scripts/test/corpus/CounterFan/chart.mmd	original	mode-runtime subagent	reviewed for Codex and Zwift branding	2f59dcc1236cc70d4e6609139237e07b7e6645f63129b8722ef6e1d44030b0fd
+skills/statechart/scripts/test/corpus/CounterFan/graph.dot	original	mode-runtime subagent	reviewed for Codex and Zwift branding	ee3e20bd9b56b5dc2cc21b653719a588c9dbe08855e0493c262e3c673cea2805
+skills/statechart/scripts/test/corpus/CounterFan/report.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	016771561b9b5b0a45c0d8c805723a6b8bc39396281dba6d4f6c7b3f1e151612
+skills/statechart/scripts/test/corpus/CounterFan/sany.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	5a58a05867b5cb952d4b1de562190e85b8dc1485a7201385e622a2af27519c96
+skills/statechart/scripts/test/corpus/CounterFan/verdict-1.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a1fb50e6c86fae1679ef3351296fd6713411a08cf8dd1790a4fd05fae8688164
+skills/statechart/scripts/test/corpus/CounterFan/verdict-1.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	9b29b704182ee143c6607f3d7f94f6a99b0c2861e98c762881edd090409f5e3d
+skills/statechart/scripts/test/corpus/CounterFan/verdict-2.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	5451276f75c5345be19fc04f88d6c155773d888a5b3eb5e071b296e06b121558
+skills/statechart/scripts/test/corpus/CounterGuard/ChartRun.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	84b9bb077be0d8a29d0d01ef350d718b77c2ec5f40c3ab90502b1b4b5016c550
+skills/statechart/scripts/test/corpus/CounterGuard/ChartRun.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	e1002e5c0e0bec968e5417dd3ed2be5a8ec02d86f375663de1eeb43f0d4f511e
+skills/statechart/scripts/test/corpus/CounterGuard/CounterGuard.cfg	original	mode-runtime subagent	reviewed for Codex and Zwift branding	3239ec0757c48dfbf02f914005fd2c9d114e9f2989d42e15184df887e322a301
+skills/statechart/scripts/test/corpus/CounterGuard/CounterGuard.tla	original	mode-runtime subagent	reviewed for Codex and Zwift branding	c2d7ed7d7bd4b317764d590dbd9bb6cbe7819500c7e6707787fe3065460c99a7
+skills/statechart/scripts/test/corpus/CounterGuard/chart.mmd	original	mode-runtime subagent	reviewed for Codex and Zwift branding	8baa9330755dd4217aadd731b77fde833f747d09998944ada660b2708cc7d313
+skills/statechart/scripts/test/corpus/CounterGuard/graph.dot	original	mode-runtime subagent	reviewed for Codex and Zwift branding	7b0b58221d3980d6d64cb979c22523fbfe5796e465bae79e6d19fdd9c607e547
+skills/statechart/scripts/test/corpus/CounterGuard/report.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	454b4672f07c18e52827e9906fea37c6e701c5d87eea7ca3675163375c02b64f
+skills/statechart/scripts/test/corpus/CounterGuard/sany.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	8d331316b1be40a834e166268f8abe94f884bfcfe35135b6492eacb1ee825788
+skills/statechart/scripts/test/corpus/CounterGuard/verdict-1.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a1fb50e6c86fae1679ef3351296fd6713411a08cf8dd1790a4fd05fae8688164
+skills/statechart/scripts/test/corpus/CounterGuard/verdict-1.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a4fece3e0a8ef311b2c95049e57899e59077747be9b4eebe6a4c13be6a35819d
+skills/statechart/scripts/test/corpus/CounterGuard/verdict-2.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	84b9bb077be0d8a29d0d01ef350d718b77c2ec5f40c3ab90502b1b4b5016c550
+skills/statechart/scripts/test/corpus/CounterGuard/verdict-2.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	bd5b45d791ebb206305a92c628f7c9e56755546bb0977a8caafacf74df4318a4
+skills/statechart/scripts/test/corpus/CounterInitPast/ChartRun.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	b7daf18cea914d581a99872c290ac6199a76f6779398e9cbeba449fb58b8114a
+skills/statechart/scripts/test/corpus/CounterInitPast/CounterInitPast.cfg	original	mode-runtime subagent	reviewed for Codex and Zwift branding	f42b6456243b9a8f39599597bb630b68b02b0e66683e96896cb06d2b81af94d9
+skills/statechart/scripts/test/corpus/CounterInitPast/CounterInitPast.tla	original	mode-runtime subagent	reviewed for Codex and Zwift branding	745a6e54d0b9c285d797481a09d4a531004f46b04fb5ef0b7c35194fa4d6a137
+skills/statechart/scripts/test/corpus/CounterInitPast/chart.mmd	original	mode-runtime subagent	reviewed for Codex and Zwift branding	28797d6572aa78a9f49f04a3247b62a7047e660af586d8717877164f3bda73e2
+skills/statechart/scripts/test/corpus/CounterInitPast/graph.dot	original	mode-runtime subagent	reviewed for Codex and Zwift branding	372ed91b09c1602514668fe24101315737f060e607fb959af0b55dde9efc4ed1
+skills/statechart/scripts/test/corpus/CounterInitPast/report.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	757128a547d5de236c96e47780e5ce8852d1b5873912f31fd4a964222b986295
+skills/statechart/scripts/test/corpus/CounterInitPast/sany.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	74535350e20489c088c310d49ac2abab35c0bd3dcd7b9a500b351846da01f62f
+skills/statechart/scripts/test/corpus/CounterInitPast/verdict-1.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a1fb50e6c86fae1679ef3351296fd6713411a08cf8dd1790a4fd05fae8688164
+skills/statechart/scripts/test/corpus/CounterInitPast/verdict-1.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	04f3461413a2976d6fc6c4bcd30eb61a536f533301c792112cdf96869f6febc0
+skills/statechart/scripts/test/corpus/CounterInitPast/verdict-2.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	5839052fc910faf8f0a9c5c5360564751c3c6299b26195f2b4c49e19ba8045d6
+skills/statechart/scripts/test/corpus/CounterInitPastHolds/ChartRun.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	5f1e1e09b18b2f2551f54a09ee4eceae9e3d8d05db2c6dc4ae463222ca4e4012
+skills/statechart/scripts/test/corpus/CounterInitPastHolds/CounterInitPastHolds.cfg	original	mode-runtime subagent	reviewed for Codex and Zwift branding	b1ca71d25dbb08c93b0ebaf628eb536ef6c98e3e599d8146e0a0c43f5eeb800d
+skills/statechart/scripts/test/corpus/CounterInitPastHolds/CounterInitPastHolds.tla	original	mode-runtime subagent	reviewed for Codex and Zwift branding	97bafdcba8976d26069b89c31a549d3d7d992cf9cde10d654133d55f2ce604e7
+skills/statechart/scripts/test/corpus/CounterInitPastHolds/chart.mmd	original	mode-runtime subagent	reviewed for Codex and Zwift branding	f74c6486f80c1e9820a901a730eecb3d6f9aa88076f704b87a60bb02b8b24d01
+skills/statechart/scripts/test/corpus/CounterInitPastHolds/graph.dot	original	mode-runtime subagent	reviewed for Codex and Zwift branding	372ed91b09c1602514668fe24101315737f060e607fb959af0b55dde9efc4ed1
+skills/statechart/scripts/test/corpus/CounterInitPastHolds/report.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	60a12f6918ea21e77def19b66ff94ff47ce834f7ddbfef4c246570d02a0c6e78
+skills/statechart/scripts/test/corpus/CounterInitPastHolds/sany.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	91f7850c1fe9fd4507f457dea2a047abd4013182f56cda2e7aa587b7b4edaf77
+skills/statechart/scripts/test/corpus/CounterInitPastHolds/verdict-1.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	fc5062004dbb80352dbcb76de802ae6be9d7ad5b5552b760a2f7c520d157ff38
+skills/statechart/scripts/test/corpus/CounterInstance/ChartRun.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	0c2cf161fb5d3377263eea12cde2f44514ca1e36d62d089d600b73d61f9a28e2
+skills/statechart/scripts/test/corpus/CounterInstance/CounterInstance.cfg	original	mode-runtime subagent	reviewed for Codex and Zwift branding	f0d016dfb57a8661eac65d738ca9b797242c486e4fe5a0d7379e9424c7de3cc8
+skills/statechart/scripts/test/corpus/CounterInstance/CounterInstance.tla	original	mode-runtime subagent	reviewed for Codex and Zwift branding	cbee0c802f8984ef74bb2d85e7d75635522755540e0175c51ba1cb0a099a9345
+skills/statechart/scripts/test/corpus/CounterInstance/CounterSteps.tla	original	mode-runtime subagent	reviewed for Codex and Zwift branding	ec27748a316d01d7384a402166ff3fe36c7364511fd1681797832f2a1777e8ac
+skills/statechart/scripts/test/corpus/CounterInstance/chart.mmd	original	mode-runtime subagent	reviewed for Codex and Zwift branding	649d905eb59e1a2972e56396f4aeaff6cafb40c6733c55b5829d36cb4986eb8e
+skills/statechart/scripts/test/corpus/CounterInstance/graph.dot	original	mode-runtime subagent	reviewed for Codex and Zwift branding	ca06f91bdafb423be1fac388ab5b90d8f78ff96148c2120a61e085f0dc4c108b
+skills/statechart/scripts/test/corpus/CounterInstance/report.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	2d6a8b73b1a6f4003bd5c3c669191ab08d04cb03fe441fad8f892b4e8d581569
+skills/statechart/scripts/test/corpus/CounterInstance/sany.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	5b8a514e26f02cf174138ba433a2a3d792c1822011e2c69907ef18f2ba5a27d8
+skills/statechart/scripts/test/corpus/CounterInstance/verdict-1.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	1a252402972f6057fa53cc172b52b9ffca698e18311facd0f3b06ecaaef79e17
+skills/statechart/scripts/test/corpus/CounterInstance/verdict-1.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	4c3084fc74e9d89343e53ee2a470fc586279d3a5ba9d915db7eda7d74ca7de5b
+skills/statechart/scripts/test/corpus/CounterJump/ChartRun.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	8222f946acf9825ea491655f6d16c296f9b87ea8bbb5748ccf36de2a989224c0
+skills/statechart/scripts/test/corpus/CounterJump/CounterJump.cfg	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a94be2a46d740142d19cf03c288547c03cb0fa7d8ab9590a78eb0de7b99ba235
+skills/statechart/scripts/test/corpus/CounterJump/CounterJump.tla	original	mode-runtime subagent	reviewed for Codex and Zwift branding	62e09e72adfdc0bda81d4e4d26c3c8c56641589258b6308d4c3c0e62c882f035
+skills/statechart/scripts/test/corpus/CounterJump/chart.mmd	original	mode-runtime subagent	reviewed for Codex and Zwift branding	b9829b90a85d056c88c8742e17caf5058941048dc411a48524115481a29be92f
+skills/statechart/scripts/test/corpus/CounterJump/graph.dot	original	mode-runtime subagent	reviewed for Codex and Zwift branding	f829d5cb1d9027aed499564e5574c8955d91a9b3decb32179000de757c9817a1
+skills/statechart/scripts/test/corpus/CounterJump/report.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	b459f42807ac3dc2d0ac0f26aa13b549525e0b946871e787ca07e58f6c8ade98
+skills/statechart/scripts/test/corpus/CounterJump/sany.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	68b6e92c3232530a43b49e8292eb0a6e2e8e2c8e04a7e0932e59e7d38f8d4527
+skills/statechart/scripts/test/corpus/CounterJump/verdict-1.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a1fb50e6c86fae1679ef3351296fd6713411a08cf8dd1790a4fd05fae8688164
+skills/statechart/scripts/test/corpus/CounterJump/verdict-1.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	97b173b22415136c8860a0161c0d32910d2f4eecd7bd27fbe3744624d92c6e7e
+skills/statechart/scripts/test/corpus/CounterJump/verdict-2.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	7681bbe567fb132f293401031980bd22f56c345b91bf471c6e32e7534aae4177
+skills/statechart/scripts/test/corpus/CounterLoop/ChartRun.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	3906c36c440af6d392d92de7ff3c92f2e5b765a2640f29da46d5a9d771c4895b
+skills/statechart/scripts/test/corpus/CounterLoop/CounterLoop.cfg	original	mode-runtime subagent	reviewed for Codex and Zwift branding	f0d016dfb57a8661eac65d738ca9b797242c486e4fe5a0d7379e9424c7de3cc8
+skills/statechart/scripts/test/corpus/CounterLoop/CounterLoop.tla	original	mode-runtime subagent	reviewed for Codex and Zwift branding	84449896e318fd129b82f574b644ea16a73c1f23e9331cdb9361d5a284e17cdc
+skills/statechart/scripts/test/corpus/CounterLoop/chart.mmd	original	mode-runtime subagent	reviewed for Codex and Zwift branding	0157bf074e7aa642a0819cd6eb2352fc57c21866962f2944bf71e2c028c9bff9
+skills/statechart/scripts/test/corpus/CounterLoop/graph.dot	original	mode-runtime subagent	reviewed for Codex and Zwift branding	6558ade4931cfbe5c28ed713504072976d401072dad6acc4506c84afb3169b99
+skills/statechart/scripts/test/corpus/CounterLoop/report.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	fb9d5d76f6c1c00746f9fdc211ee26eb82c5649ed212c2fdf9e9810a4a33ab10
+skills/statechart/scripts/test/corpus/CounterLoop/sany.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	2a3cb63115eaaf7e19557949fc97785d112b2dcfec55dcb00583daa8926d19f7
+skills/statechart/scripts/test/corpus/CounterLoop/verdict-1.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	1a252402972f6057fa53cc172b52b9ffca698e18311facd0f3b06ecaaef79e17
+skills/statechart/scripts/test/corpus/CounterLoop/verdict-1.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	752726b51bd813e71743efc4af04b64d383bf74e245cfb3af1b8ee1ce7bdc96a
+skills/statechart/scripts/test/corpus/CounterOrder/ChartRun.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	0b9103d778319361db87ceb4ca1cef982ddf7b30c05f0dc54f7f399a2b850775
+skills/statechart/scripts/test/corpus/CounterOrder/CounterOrder.cfg	original	mode-runtime subagent	reviewed for Codex and Zwift branding	6f321b62ecd415eda4363ce98e05b470d277f8b169dee8658a267668e7f3fb5b
+skills/statechart/scripts/test/corpus/CounterOrder/CounterOrder.tla	original	mode-runtime subagent	reviewed for Codex and Zwift branding	173e3ba50a4b662464e1188d31d5c306c0202a03385978a8aa841cf0c2f5e8a0
+skills/statechart/scripts/test/corpus/CounterOrder/chart.mmd	original	mode-runtime subagent	reviewed for Codex and Zwift branding	8259183f842918dfaa6f70fb805db9db5a61f3db0af13c2cf09e9e131136d8d1
+skills/statechart/scripts/test/corpus/CounterOrder/graph.dot	original	mode-runtime subagent	reviewed for Codex and Zwift branding	7a5d0a1efcf36b579f640e283c38a2054c8740cf96bb2b332bb42e2aaff8481c
+skills/statechart/scripts/test/corpus/CounterOrder/report.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a37510137bc3d2c9bdf2be48a40aca3f36b44aa5b9be1f4f2f6cfbacfbbd2693
+skills/statechart/scripts/test/corpus/CounterOrder/sany.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	e4d8472643a723ed5b3cc8772af07d24d534edcc1a6d36b2690de2d395906ed5
+skills/statechart/scripts/test/corpus/CounterOrder/verdict-1.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a1fb50e6c86fae1679ef3351296fd6713411a08cf8dd1790a4fd05fae8688164
+skills/statechart/scripts/test/corpus/CounterOrder/verdict-1.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	178ddc12303d7d099694557748489cb026ce9ae9892e3f337e4553c6748793cd
+skills/statechart/scripts/test/corpus/CounterOrder/verdict-2.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	25d4f2a86deb5e2574bb3210b67bb24fcc4afb19f93a7b65a057daa874a9d18e
+skills/statechart/scripts/test/corpus/CounterOrder/verdict-2.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	83ad0da2a825f2991173defe1e1b8a4361b9f3b5c84c3df23c4ab0539232dc18
+skills/statechart/scripts/test/corpus/CounterRules/ChartRun.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	26ccfeb6849f9c2f33a408bd86ea08b26d31acfe92ab1566074d844ef024f109
+skills/statechart/scripts/test/corpus/CounterRules/CounterRules.cfg	original	mode-runtime subagent	reviewed for Codex and Zwift branding	931efa110d01b684843f905cae87fb2308b70b324ca9f51ab1bb6617595047c2
+skills/statechart/scripts/test/corpus/CounterRules/CounterRules.tla	original	mode-runtime subagent	reviewed for Codex and Zwift branding	57f1be6cc35c3f8252aacc2916975045d1932fab868d961d9c461e23f666eb86
+skills/statechart/scripts/test/corpus/CounterRules/Moves.tla	original	mode-runtime subagent	reviewed for Codex and Zwift branding	3c58aaa6098d94f727d427d7ce65ebbc79d684c5a6d7b8e18ccdf2b9222a0a56
+skills/statechart/scripts/test/corpus/CounterRules/chart.mmd	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a8349b6203985b4cf3f10d581d7a15a312c19262ee7a8de8b73ba62311a817ea
+skills/statechart/scripts/test/corpus/CounterRules/graph.dot	original	mode-runtime subagent	reviewed for Codex and Zwift branding	80b70738200d8b16e52b598fd6ddffb607f672550168cc8756c8605180210fce
+skills/statechart/scripts/test/corpus/CounterRules/report.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	6db41c347e7d680d126168093dcce483e5406c5ea4728b32149f3d8c104b1259
+skills/statechart/scripts/test/corpus/CounterRules/sany.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	6c96b7563f60ca3b1860627a5588093b401d30c13724ccb2c77cee6238c69667
+skills/statechart/scripts/test/corpus/CounterRules/verdict-1.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a1fb50e6c86fae1679ef3351296fd6713411a08cf8dd1790a4fd05fae8688164
+skills/statechart/scripts/test/corpus/CounterRules/verdict-1.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	c698ee1de364a049b5fc3bfd2272a304d7501dcdfbc9d8e5911120930e752dc1
+skills/statechart/scripts/test/corpus/CounterRules/verdict-2.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a1fb50e6c86fae1679ef3351296fd6713411a08cf8dd1790a4fd05fae8688164
+skills/statechart/scripts/test/corpus/CounterRules/verdict-2.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	8e6b46fd950f0e2c7bae6e3002ddcbde99090abbe307bcbde03e5050d00d4f2c
+skills/statechart/scripts/test/corpus/CounterRules/verdict-3.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a1fb50e6c86fae1679ef3351296fd6713411a08cf8dd1790a4fd05fae8688164
+skills/statechart/scripts/test/corpus/CounterRules/verdict-3.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	4fb4ec109b8c16df22fa859145bddc5b296c22786121fc6b911da92e0794b239
+skills/statechart/scripts/test/corpus/CounterRules/verdict-4.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	8204403778d463876fdb1a251302c9c419ffa4755980f8db5616f9b98f9bcfaa
+skills/statechart/scripts/test/corpus/CounterStart/ChartRun.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	d90928c5cfceca69caed71aa426c0cbd1956c740ac9448b37e8cb6e67f2dc0e1
+skills/statechart/scripts/test/corpus/CounterStart/CounterStart.cfg	original	mode-runtime subagent	reviewed for Codex and Zwift branding	eff943bab49dc0cad0567a0d4456671724b778d7913a2ba38de16a12386b7a58
+skills/statechart/scripts/test/corpus/CounterStart/CounterStart.tla	original	mode-runtime subagent	reviewed for Codex and Zwift branding	dbbb6c141d88a7bc4dc354c89d85ce9623871070b0dc93ca7ba6c0ece2043b28
+skills/statechart/scripts/test/corpus/CounterStart/chart.mmd	original	mode-runtime subagent	reviewed for Codex and Zwift branding	fca72ed62e89b903e63a7f2a646a29cee33f72b1b60a6c96793bbcc807e09f74
+skills/statechart/scripts/test/corpus/CounterStart/graph.dot	original	mode-runtime subagent	reviewed for Codex and Zwift branding	1c259eb08cedb809a62f24d59232f229d2cc0df8f6bd97285946ce2d586daaef
+skills/statechart/scripts/test/corpus/CounterStart/report.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	01444b757bca7435af323af5a6a31caff91388bb84ab48948b2660a80d78b8e4
+skills/statechart/scripts/test/corpus/CounterStart/sany.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	61a0c605d5ab3806d5ea8779ac00d344e4b19a2c423288b48fb893037de63425
+skills/statechart/scripts/test/corpus/CounterStart/verdict-1.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a1fb50e6c86fae1679ef3351296fd6713411a08cf8dd1790a4fd05fae8688164
+skills/statechart/scripts/test/corpus/CounterStart/verdict-1.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	8538401dfcfd050f1a0e311a360e0237abc202295eeddac3527571da1714541d
+skills/statechart/scripts/test/corpus/CounterStart/verdict-2.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	c628cf6a71ebd247061b61a592839aabcea9ebf110f667b927b2f6d9e6487520
+skills/statechart/scripts/test/corpus/CounterStop/ChartRun.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	88c05036a3209e587f3d96aab687d1c334d29a6d82064436d3bd0d8fcdb07232
+skills/statechart/scripts/test/corpus/CounterStop/CounterStop.cfg	original	mode-runtime subagent	reviewed for Codex and Zwift branding	eff943bab49dc0cad0567a0d4456671724b778d7913a2ba38de16a12386b7a58
+skills/statechart/scripts/test/corpus/CounterStop/CounterStop.tla	original	mode-runtime subagent	reviewed for Codex and Zwift branding	e4486923b563ac7fb028e8513e79e3caa5e0905579d423569e9c918938e0f12c
+skills/statechart/scripts/test/corpus/CounterStop/chart.mmd	original	mode-runtime subagent	reviewed for Codex and Zwift branding	0ddf7a93d1317fa0414c0c5b05dba856c268a2124c4e06caebc3f5b4ad6f393c
+skills/statechart/scripts/test/corpus/CounterStop/graph.dot	original	mode-runtime subagent	reviewed for Codex and Zwift branding	1c259eb08cedb809a62f24d59232f229d2cc0df8f6bd97285946ce2d586daaef
+skills/statechart/scripts/test/corpus/CounterStop/report.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	5d0e28ce1ceefb740ecc85076c8be6a5a5bf00d00a8bc3a0a00b5494dfbf025d
+skills/statechart/scripts/test/corpus/CounterStop/sany.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	933921ca1dcf5b7e089d2aca59ac79a50e521f22c60cebd5812be4e3e67ec58c
+skills/statechart/scripts/test/corpus/CounterStop/verdict-1.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	349b21ea07683525b5ae1d6a45e901857ed9b3e5e4ba556baa7ce8b965c238ed
+skills/statechart/scripts/test/corpus/CounterTie/ChartRun.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	5d311ce42ed339431a1f1420f5aeda7041585e9e54bfe2a0dd5d7802afb14738
+skills/statechart/scripts/test/corpus/CounterTie/CounterTie.cfg	original	mode-runtime subagent	reviewed for Codex and Zwift branding	b3d7d0ae1bba01c98903b54cefb4ba76afbb3ce07957431a03e53505ffe95510
+skills/statechart/scripts/test/corpus/CounterTie/CounterTie.tla	original	mode-runtime subagent	reviewed for Codex and Zwift branding	e668ff93e2213651d6bb14e14255814cb37ab61062466384b953563b2d844daa
+skills/statechart/scripts/test/corpus/CounterTie/chart.mmd	original	mode-runtime subagent	reviewed for Codex and Zwift branding	0fcc808934cbf91f592eda060de978064e4854c704d1c861332f875cf7415543
+skills/statechart/scripts/test/corpus/CounterTie/graph.dot	original	mode-runtime subagent	reviewed for Codex and Zwift branding	906fdbce95c4d0628441a231d9d9124d506d34f95ba08f653f3db084d13c5c1d
+skills/statechart/scripts/test/corpus/CounterTie/report.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	9649f57adfbd71a5f4430bcde0d95234883b1daf80eff2d91a0dbd1ddf6d3739
+skills/statechart/scripts/test/corpus/CounterTie/sany.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	4ce39c0150c1cc1c9d657b927f22103fc8ecf1d0f0678137970ac98fe2a8d355
+skills/statechart/scripts/test/corpus/CounterTie/verdict-1.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a1fb50e6c86fae1679ef3351296fd6713411a08cf8dd1790a4fd05fae8688164
+skills/statechart/scripts/test/corpus/CounterTie/verdict-1.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	23f01bd5cc2d8d7336906ebb55fcc4ebc3412235c3a21cf41095fecca8298804
+skills/statechart/scripts/test/corpus/CounterTie/verdict-2.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a1fb50e6c86fae1679ef3351296fd6713411a08cf8dd1790a4fd05fae8688164
+skills/statechart/scripts/test/corpus/CounterTie/verdict-2.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	6da80e46d4e49f99afab18fe75d3dda9c426873e81772dab84ee8c8e6d22e6c7
+skills/statechart/scripts/test/corpus/CounterTie/verdict-3.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a1fb50e6c86fae1679ef3351296fd6713411a08cf8dd1790a4fd05fae8688164
+skills/statechart/scripts/test/corpus/CounterTie/verdict-3.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	f32738c06aee7d0c85132c599f25c07f867ea2474c94e5aca9e558ece7122a43
+skills/statechart/scripts/test/corpus/CounterTie/verdict-4.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	4c506504594e441be33fe0ae91e184f59d405571e81b9e6c5ec093e0e297b60c
+skills/statechart/scripts/test/corpus/CounterTieInGraph/ChartRun.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	7147d1c60ddd1d527267eb871665f157d55a72fdbdc5d592dca13f4163a0a7c1
+skills/statechart/scripts/test/corpus/CounterTieInGraph/CounterTieInGraph.cfg	original	mode-runtime subagent	reviewed for Codex and Zwift branding	4a48e4418169113fdd2abb891981d4917fca6b76915e38f6bcddbc5596786195
+skills/statechart/scripts/test/corpus/CounterTieInGraph/CounterTieInGraph.tla	original	mode-runtime subagent	reviewed for Codex and Zwift branding	cf1818fc7d96bd4082f9260a42b7e792d5e6494ce7ae6c97730b63e8085e0ac0
+skills/statechart/scripts/test/corpus/CounterTieInGraph/chart.mmd	original	mode-runtime subagent	reviewed for Codex and Zwift branding	2c3fb00ad851c1bab2516ce25838209c342cbc8c5d3d795a54bb6eac3ad5d0d0
+skills/statechart/scripts/test/corpus/CounterTieInGraph/graph.dot	original	mode-runtime subagent	reviewed for Codex and Zwift branding	ec76c05526f13d71d561cd67118da823cb0337af4f4d7b011d84f420aa8663ed
+skills/statechart/scripts/test/corpus/CounterTieInGraph/report.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	efb16c681db5ffef7312d550393bc62e1b3682615b06d8f2991fea29ba3938a8
+skills/statechart/scripts/test/corpus/CounterTieInGraph/sany.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	eb1991c5d584f35db0bcdb3ad4ab5444be5c84f324f177e51b95bb8b46f75324
+skills/statechart/scripts/test/corpus/CounterTieInGraph/verdict-1.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a1fb50e6c86fae1679ef3351296fd6713411a08cf8dd1790a4fd05fae8688164
+skills/statechart/scripts/test/corpus/CounterTieInGraph/verdict-1.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	adea6da9c223cba9666d043e3868681ab9bc7249aceb32bed01d0c343729306a
+skills/statechart/scripts/test/corpus/CounterTieInGraph/verdict-2.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	e6a1ac22f379c405e841ac4d82989153a9f1f6e011d3cea993a3e0415fab607d
+skills/statechart/scripts/test/corpus/CounterView/ChartRun.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	3a10a03fb39a2cf59088945e45866b5600bfb1740f88a641fc12bdbbccaff6e4
+skills/statechart/scripts/test/corpus/CounterView/CounterView.cfg	original	mode-runtime subagent	reviewed for Codex and Zwift branding	f7f1939032d3fb09af0d2e38907b2f8e3da73cd6f90769a801638c4c50f9ccdc
+skills/statechart/scripts/test/corpus/CounterView/CounterView.tla	original	mode-runtime subagent	reviewed for Codex and Zwift branding	273e549d576351809a2220003ae1b3c8cd2e687499be05fb21b3ce461d1b5162
+skills/statechart/scripts/test/corpus/CounterView/chart.mmd	original	mode-runtime subagent	reviewed for Codex and Zwift branding	e6e0208a45a15a8af7be73b8e89ee665117414c3fc082679f35b250f2643cd05
+skills/statechart/scripts/test/corpus/CounterView/graph.dot	original	mode-runtime subagent	reviewed for Codex and Zwift branding	906fdbce95c4d0628441a231d9d9124d506d34f95ba08f653f3db084d13c5c1d
+skills/statechart/scripts/test/corpus/CounterView/report.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	2a64bbb36844f44e97626e6c0579ba1aaa6fdaea99216b7322642ab07d1cbbb5
+skills/statechart/scripts/test/corpus/CounterView/sany.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a1cd34d2d89ca38c44999e7376075047947927899d406c401c87308fd5ab203a
+skills/statechart/scripts/test/corpus/CounterView/verdict-1.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a1fb50e6c86fae1679ef3351296fd6713411a08cf8dd1790a4fd05fae8688164
+skills/statechart/scripts/test/corpus/CounterView/verdict-1.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	72fc583dcc88417e49c1677157290798f93acd3578e7375287481d0fafeb0ccb
+skills/statechart/scripts/test/corpus/CounterView/verdict-2.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a1fb50e6c86fae1679ef3351296fd6713411a08cf8dd1790a4fd05fae8688164
+skills/statechart/scripts/test/corpus/CounterView/verdict-2.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	52943481867e3a09c9f7cc03b59aaf46f62ef11c52838ee74d9b08d4a20b495d
+skills/statechart/scripts/test/corpus/CounterView/verdict-3.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a1fb50e6c86fae1679ef3351296fd6713411a08cf8dd1790a4fd05fae8688164
+skills/statechart/scripts/test/corpus/CounterView/verdict-3.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a9bae24726f019333be34e3eea112d98c801acd1b3fe18122a60727bf8140a58
+skills/statechart/scripts/test/corpus/CounterView/verdict-4.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	64cd4d20c205f42b3b9bc2cf73a8445b07c156d237be806850ebf95dc68d2c30
+skills/statechart/scripts/test/corpus/CounterView/view.mjs	original	mode-runtime subagent	reviewed for Codex and Zwift branding	5f6114fd8ca165604456048f2d7e2c29f667eb4537076647aaf3bb856f1c826e
+skills/statechart/scripts/test/corpus/DieHard/ChartRun.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	08bb7555bd933f42ceaeec6547ff5bed0f03f1443db1066acfede7e41a789dbe
+skills/statechart/scripts/test/corpus/DieHard/DieHard.cfg	original	mode-runtime subagent	reviewed for Codex and Zwift branding	d75cf14954dfc65a36abbbbde7b6d52b77c4df36a4fdf64974acd51adfdd13f8
+skills/statechart/scripts/test/corpus/DieHard/DieHard.tla	original	mode-runtime subagent	reviewed for Codex and Zwift branding	8a63111dc1aea97f4b32cc6fb7f36112775ef65b5a8a8603fbd35c493eba306d
+skills/statechart/scripts/test/corpus/DieHard/chart.mmd	original	mode-runtime subagent	reviewed for Codex and Zwift branding	89057b576e59f437dd8c96a25edfd6891512d9b5788c5883e7d1affb6b5a9681
+skills/statechart/scripts/test/corpus/DieHard/graph.dot	original	mode-runtime subagent	reviewed for Codex and Zwift branding	6cf64ad56b08000c6a3f05aecd54331b71192aca1de3d737afe24b157a06ee84
+skills/statechart/scripts/test/corpus/DieHard/report.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	044c2a2b41ffe7f522af78b33f1c0fa09f822b42ae0913560db355e88b9cdb4d
+skills/statechart/scripts/test/corpus/DieHard/sany.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	818c71c8a84a41a626740fcc61608ad77d45d8cea2175690163da289f1eda4bd
+skills/statechart/scripts/test/corpus/DieHard/verdict-1.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a1fb50e6c86fae1679ef3351296fd6713411a08cf8dd1790a4fd05fae8688164
+skills/statechart/scripts/test/corpus/DieHard/verdict-1.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a142a4b988e277a3109b7f620a1e0b0a1f1d602e882282582c2009e6e04f8b37
+skills/statechart/scripts/test/corpus/DieHard/verdict-2.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	11016ad26fd29eeaba521f3e62087297895b3b0e77f3ebd32449882da3d54ec2
+skills/statechart/scripts/test/corpus/FirstRule/ChartRun.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	e714fefb5844e903d5f608c4460284017cb80fbe28fb04d7f64ecad7d577bc9d
+skills/statechart/scripts/test/corpus/FirstRule/FirstRule.cfg	original	mode-runtime subagent	reviewed for Codex and Zwift branding	422dbc8bd263458fb1706fdaa4888ca3375ca5db1394dcf6b5aaa6ad0645fede
+skills/statechart/scripts/test/corpus/FirstRule/FirstRule.tla	original	mode-runtime subagent	reviewed for Codex and Zwift branding	9f1b2ddb4a573c4612cee6657f728117656a2dd1ab9e8e800e171ee1f3cbb1f4
+skills/statechart/scripts/test/corpus/FirstRule/chart.mmd	original	mode-runtime subagent	reviewed for Codex and Zwift branding	60b3c9d31e74b633d5d97a2847aab3bd3fb4f63813e8e0d8a3a493ff5dde1bc3
+skills/statechart/scripts/test/corpus/FirstRule/graph.dot	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a1b348348bf032ff81cfd796ae19f8cdcf491d5af18eab73ebfca3058a15691b
+skills/statechart/scripts/test/corpus/FirstRule/report.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	2323122a1509c6c554a18da72a549922e364d2e89f0e5d274f1fa4b89f14c6e1
+skills/statechart/scripts/test/corpus/FirstRule/sany.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	94176927597f47550c6ca1cd91807367a1e2ce968c1eceae20256d96cfba1139
+skills/statechart/scripts/test/corpus/FirstRule/verdict-1.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a1fb50e6c86fae1679ef3351296fd6713411a08cf8dd1790a4fd05fae8688164
+skills/statechart/scripts/test/corpus/FirstRule/verdict-1.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	373603f694137421f0a9aec61debef6c29afe946ae8a0091bfa1dcb0e3d59458
+skills/statechart/scripts/test/corpus/FirstRule/verdict-2.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a1fb50e6c86fae1679ef3351296fd6713411a08cf8dd1790a4fd05fae8688164
+skills/statechart/scripts/test/corpus/FirstRule/verdict-2.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	28c6b271dd39e0cb1f46e74d7eee18c3c8f682129bc98204c33f381276c16d92
+skills/statechart/scripts/test/corpus/FirstRule/verdict-3.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a1fb50e6c86fae1679ef3351296fd6713411a08cf8dd1790a4fd05fae8688164
+skills/statechart/scripts/test/corpus/FirstRule/verdict-3.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	89fb6bd963fd3d71e9026c3b73823a9f5dae514d19e7091b4b8578f3ef65590d
+skills/statechart/scripts/test/corpus/FirstRule/verdict-4.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	25d4f2a86deb5e2574bb3210b67bb24fcc4afb19f93a7b65a057daa874a9d18e
+skills/statechart/scripts/test/corpus/FirstRule/verdict-4.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	01d11989d8e57c185276e012920adae17002c312f9dd369cf04563325681ed0c
+skills/statechart/scripts/test/corpus/HiddenClock/ChartRun.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	f39e4f8d3bedbdb0ad3cd703eede76bb7d7e3561ad8324c4b8e62a4116533a3d
+skills/statechart/scripts/test/corpus/HiddenClock/HiddenClock.cfg	original	mode-runtime subagent	reviewed for Codex and Zwift branding	1ff2a58417639cdb8fd7fe134d9acc49badc7ddefae309e8a49343550bb37dc7
+skills/statechart/scripts/test/corpus/HiddenClock/HiddenClock.tla	original	mode-runtime subagent	reviewed for Codex and Zwift branding	1cdb3a20c553557f60fddc93d0c2a57dcd815f0028020a58110ff92ae5e6ef1b
+skills/statechart/scripts/test/corpus/HiddenClock/chart.mmd	original	mode-runtime subagent	reviewed for Codex and Zwift branding	7d29b01c2bc123ec82c9ccf12a082b2bd700afa6ae5f5e4451c08fba553b317f
+skills/statechart/scripts/test/corpus/HiddenClock/graph.dot	original	mode-runtime subagent	reviewed for Codex and Zwift branding	abfe48a392e3f5217684882942261deb1a117e63e3e3836f037a551019fff710
+skills/statechart/scripts/test/corpus/HiddenClock/report.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	bb7e070ee6e8b332ab4a4166c33989a5aa38bc0e0ecf75a93c8935d0680c8b82
+skills/statechart/scripts/test/corpus/HiddenClock/sany.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	86bc954e5dffa1c9516ccb8064610f66668db25a34be69cc03bb4a5736c2a566
+skills/statechart/scripts/test/corpus/HiddenClock/verdict-1.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	1a252402972f6057fa53cc172b52b9ffca698e18311facd0f3b06ecaaef79e17
+skills/statechart/scripts/test/corpus/HiddenClock/verdict-1.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	61142f959f455d400252177a42b242879552a97d8d3b44eaf3e8df98507c6f69
+skills/statechart/scripts/test/corpus/Login/ChartRun.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	d43d8675d8e3061e86c754860694646b0f046a543c65611cbf5b4c2753169989
+skills/statechart/scripts/test/corpus/Login/Login.cfg	original	mode-runtime subagent	reviewed for Codex and Zwift branding	97707bb4e8fb4a42465bade63b9be92dae0ebcc877530d588e5bdefb3687655e
+skills/statechart/scripts/test/corpus/Login/Login.tla	original	mode-runtime subagent	reviewed for Codex and Zwift branding	25aa3c50791c7f24fe96243baeef4cc4281d9fa37f29abb78533862bd6b6e9de
+skills/statechart/scripts/test/corpus/Login/chart.mmd	original	mode-runtime subagent	reviewed for Codex and Zwift branding	2aba56af645f56e371a87c22908e110ab259bed055a979d348220209d89b9862
+skills/statechart/scripts/test/corpus/Login/graph.dot	original	mode-runtime subagent	reviewed for Codex and Zwift branding	f120b5583e931755578032d87cedf5bcadc4cb4c4ef497605b4290e1de704673
+skills/statechart/scripts/test/corpus/Login/report.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	e0132cf83d5637c96747873fa6ecdea23961b6b3b818e6db65748013580fe87d
+skills/statechart/scripts/test/corpus/Login/sany.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	e102731bbbf16d04bce331007e37f29c9f90e0f1371eb5a9cc88f65bc7d56979
+skills/statechart/scripts/test/corpus/Login/verdict-1.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	52e93f5513baef1def4049f007c4c4f7d01e8b627a80c185362819f3f0492228
+skills/statechart/scripts/test/corpus/Login/view.mjs	original	mode-runtime subagent	reviewed for Codex and Zwift branding	f59cef65025cb9aacade3fa5027c5cba15a44cabbfe64084f6dedcb173cf93e7
+skills/statechart/scripts/test/corpus/LoginGuarded/ChartRun.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	75ad78689bae937269490459ccddffbbb24d34aab8f6de72c10637a1b0b7cbd6
+skills/statechart/scripts/test/corpus/LoginGuarded/LoginGuarded.cfg	original	mode-runtime subagent	reviewed for Codex and Zwift branding	7877ce4ca1c561150cf6a447f61f273742f4b7112ed84f10e827b38f032ec6cd
+skills/statechart/scripts/test/corpus/LoginGuarded/LoginGuarded.tla	original	mode-runtime subagent	reviewed for Codex and Zwift branding	c62583af14b40df94a4276438edecfdf482d2b185eb6b302c3db2dfe71c129e1
+skills/statechart/scripts/test/corpus/LoginGuarded/chart.mmd	original	mode-runtime subagent	reviewed for Codex and Zwift branding	298760e9f3334c9807f2c3698c1f487981e9cb67c2688e6d910a2904321383f8
+skills/statechart/scripts/test/corpus/LoginGuarded/graph.dot	original	mode-runtime subagent	reviewed for Codex and Zwift branding	3e2ffcda3ccb6fa266b13f6f19d18d81d819f9e0e9809e91868edf77d9663237
+skills/statechart/scripts/test/corpus/LoginGuarded/report.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	6476c58f4938e059179774f90a7cd1829b2c7c38903223c81a193034ebae83db
+skills/statechart/scripts/test/corpus/LoginGuarded/sany.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	e8e73f621775ea526e48dc565b3cc0010a22a90ca075e0fb0ca2f73c0522840f
+skills/statechart/scripts/test/corpus/LoginGuarded/verdict-1.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	dbbf21059cb476ac15cf3b37eab64ae2f40a10259661db134d4c1e747c990a6f
+skills/statechart/scripts/test/corpus/LoginGuarded/view.mjs	original	mode-runtime subagent	reviewed for Codex and Zwift branding	9a45c5718c3eb1171b0a2271e79612e6af833038f13ab8e16b37f15947d53cca
+skills/statechart/scripts/test/corpus/LoginParallel/ChartRun.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	bddcf3df45faa245da29948ff34cc9b48a62247f65e22cd59b7401093f35c20f
+skills/statechart/scripts/test/corpus/LoginParallel/LoginParallel.cfg	original	mode-runtime subagent	reviewed for Codex and Zwift branding	ab2bc033be4345d363d5845fb6bf573c4b79b477bdee965625e2a4af44fd9c44
+skills/statechart/scripts/test/corpus/LoginParallel/LoginParallel.tla	original	mode-runtime subagent	reviewed for Codex and Zwift branding	8f93509fca05425c054e7ec518e9653097ac9464c98fbf426fee551f940b2e51
+skills/statechart/scripts/test/corpus/LoginParallel/chart.mmd	original	mode-runtime subagent	reviewed for Codex and Zwift branding	d00f84c57486de54bde56ee75ad223e6936bd1b0334319cef60ebbee899a2480
+skills/statechart/scripts/test/corpus/LoginParallel/graph.dot	original	mode-runtime subagent	reviewed for Codex and Zwift branding	8f4d20009e23824b0bfbeddd2ca9d1c12e764599a7e179018c98d432d091ab86
+skills/statechart/scripts/test/corpus/LoginParallel/report.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	ed54afd8a979fb2c7eedf28b0bbdd1bfc91b360d883eacd8254483f1db5155d0
+skills/statechart/scripts/test/corpus/LoginParallel/sany.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	9906450ef11cc5c94325cef0b648736135708d37ee3a41841b55035f41e43309
+skills/statechart/scripts/test/corpus/LoginParallel/verdict-1.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a1fb50e6c86fae1679ef3351296fd6713411a08cf8dd1790a4fd05fae8688164
+skills/statechart/scripts/test/corpus/LoginParallel/verdict-1.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	fa9a89679f8e9b8945fec4da335edaf833b6bf081405fbd5c066208f60a1077d
+skills/statechart/scripts/test/corpus/LoginParallel/verdict-2.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	fbb5c0ea967f36fc51857318845161f5b023cfc7e9771c4f455f4340a46ae730
+skills/statechart/scripts/test/corpus/LoginParallel/view.mjs	original	mode-runtime subagent	reviewed for Codex and Zwift branding	9a45c5718c3eb1171b0a2271e79612e6af833038f13ab8e16b37f15947d53cca
+skills/statechart/scripts/test/corpus/MediaPlayer/ChartRun.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	208d5223b289e6a5359d4d41b758a99065f86b253f818b4480bde99b2750a4f1
+skills/statechart/scripts/test/corpus/MediaPlayer/MediaPlayer.cfg	original	mode-runtime subagent	reviewed for Codex and Zwift branding	0f1a86e105cf1c303cedc510b4fe080175fc77eb88fe98c1eba163d04436ffad
+skills/statechart/scripts/test/corpus/MediaPlayer/MediaPlayer.tla	original	mode-runtime subagent	reviewed for Codex and Zwift branding	ace4961900ceb44281c94879c05550123a74c5427e9fcfaf3dfb134f51c38390
+skills/statechart/scripts/test/corpus/MediaPlayer/chart.mmd	original	mode-runtime subagent	reviewed for Codex and Zwift branding	e3a6e6987bd8c6aa9fcc480a5f19e1c8c954804935f2d5f938279e6e7c2f6ceb
+skills/statechart/scripts/test/corpus/MediaPlayer/graph.dot	original	mode-runtime subagent	reviewed for Codex and Zwift branding	881d999fa6e60ba7698ea8633f16a315be97a370aa300cdea885d04333028534
+skills/statechart/scripts/test/corpus/MediaPlayer/report.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	ef407dcd4e536034ec7512076364831c7f904912cba5ed6f53659db02e13d82a
+skills/statechart/scripts/test/corpus/MediaPlayer/sany.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	6385013e3e792b0404acc8ae8c42718fba4a626ff83590bb680318c08d497e88
+skills/statechart/scripts/test/corpus/MediaPlayer/verdict-1.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a1fb50e6c86fae1679ef3351296fd6713411a08cf8dd1790a4fd05fae8688164
+skills/statechart/scripts/test/corpus/MediaPlayer/verdict-1.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	02d9d1e8286c5f214b49bec13922d405d50c3fc0c811dc82ddab4d913eb4821c
+skills/statechart/scripts/test/corpus/MediaPlayer/verdict-2.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	4975cf54825486a4f2c89349e74e0c88df5489a449fbdc09c9efacde242e69d0
+skills/statechart/scripts/test/corpus/MediaPlayer/view.mjs	original	mode-runtime subagent	reviewed for Codex and Zwift branding	019383f6b4f753b5721485f3cff9b3762e046f4cea134f26a709e9ce4c43dde9
+skills/statechart/scripts/test/corpus/MediaPlayerFixed/ChartRun.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	b55532b78f521a13c49043af43a21fdf8dfe441a96f93251a925de8da23e7be9
+skills/statechart/scripts/test/corpus/MediaPlayerFixed/MediaPlayerFixed.cfg	original	mode-runtime subagent	reviewed for Codex and Zwift branding	2d6715915152436fc1016313ef8dd55251c0f712417226c47345228527acff83
+skills/statechart/scripts/test/corpus/MediaPlayerFixed/MediaPlayerFixed.tla	original	mode-runtime subagent	reviewed for Codex and Zwift branding	59c4c86bfa1f38e0a01e8675d9936558d9a3899c3de8243483e633674a6bccfc
+skills/statechart/scripts/test/corpus/MediaPlayerFixed/chart.mmd	original	mode-runtime subagent	reviewed for Codex and Zwift branding	1a77aeca211f5469041f03c6d149beec17f300d6cb5e5386e5f73d6a214f73ae
+skills/statechart/scripts/test/corpus/MediaPlayerFixed/graph.dot	original	mode-runtime subagent	reviewed for Codex and Zwift branding	cb6b2d85fb70cfa6aefe16e3fdcb686b60f6593ec755e04ed5c4ec15867766f7
+skills/statechart/scripts/test/corpus/MediaPlayerFixed/report.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	ea569763d18889ff07c5be90ac6fb74ca83f4a19f1ba79000fa151c692d38d54
+skills/statechart/scripts/test/corpus/MediaPlayerFixed/sany.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	22f3486dbbfc11c5ae0f62e25aab9742b0875285c5de8e490f5cd84b1b948bf0
+skills/statechart/scripts/test/corpus/MediaPlayerFixed/verdict-1.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	1032f53270ba28ff47e1aef4f215b829c39e8c7c3596b8bc3756b25c468aa798
+skills/statechart/scripts/test/corpus/MediaPlayerFixed/view.mjs	original	mode-runtime subagent	reviewed for Codex and Zwift branding	019383f6b4f753b5721485f3cff9b3762e046f4cea134f26a709e9ce4c43dde9
+skills/statechart/scripts/test/corpus/MediaPlayerProps/ChartRun.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	58a4df7b90f2b93311549457fc81a06c3ec9855bc339d9f4db4d5224f63249bd
+skills/statechart/scripts/test/corpus/MediaPlayerProps/MediaPlayer.tla	original	mode-runtime subagent	reviewed for Codex and Zwift branding	ace4961900ceb44281c94879c05550123a74c5427e9fcfaf3dfb134f51c38390
+skills/statechart/scripts/test/corpus/MediaPlayerProps/MediaPlayerProps.cfg	original	mode-runtime subagent	reviewed for Codex and Zwift branding	d9995ff6b04506d0531f7264a85c932fe0e4ea2017608952d6908ef9ed31f828
+skills/statechart/scripts/test/corpus/MediaPlayerProps/MediaPlayerProps.tla	original	mode-runtime subagent	reviewed for Codex and Zwift branding	31f510c61062eaede29be56efd920aa0cfdb9851e09cdbb0c971468c48e54985
+skills/statechart/scripts/test/corpus/MediaPlayerProps/chart.mmd	original	mode-runtime subagent	reviewed for Codex and Zwift branding	40e8330310aa4ec838ad4bf99b12e5eb0ddc7b6ec99bf21d764c05ab05217d9b
+skills/statechart/scripts/test/corpus/MediaPlayerProps/graph.dot	original	mode-runtime subagent	reviewed for Codex and Zwift branding	881d999fa6e60ba7698ea8633f16a315be97a370aa300cdea885d04333028534
+skills/statechart/scripts/test/corpus/MediaPlayerProps/report.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	5a68beff9cbd182489e784b065f588a48ec61c60f87ed70dafe80ee0fde56ef3
+skills/statechart/scripts/test/corpus/MediaPlayerProps/sany.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	dc86d7c73175b68cf92d65d35758da6836a38e0ef3d5dba209c80b90df6a53d4
+skills/statechart/scripts/test/corpus/MediaPlayerProps/verdict-1.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a1fb50e6c86fae1679ef3351296fd6713411a08cf8dd1790a4fd05fae8688164
+skills/statechart/scripts/test/corpus/MediaPlayerProps/verdict-1.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	098d03466f1ebfbc0cc4ded636598d16868dca8076a357c72e44598b67e2855b
+skills/statechart/scripts/test/corpus/MediaPlayerProps/verdict-2.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	99ebfb53e402a86d1ed2111504a96128593f82b18007138a41d44c4978134843
+skills/statechart/scripts/test/corpus/MediaPlayerProps/verdict-3.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	cd49967672e351b6efd03c6f61d14d5fd8203da94235a332fc2de2d823169b53
+skills/statechart/scripts/test/corpus/MediaPlayerProps/verdict-4.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	1a252402972f6057fa53cc172b52b9ffca698e18311facd0f3b06ecaaef79e17
+skills/statechart/scripts/test/corpus/MediaPlayerProps/verdict-4.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	b412e328202e8f4afc3d57db8b6b4b1a868f5228c9a4c5ff50db6a2acc8a9f20
+skills/statechart/scripts/test/corpus/MediaPlayerProps/verdict-5.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a1fb50e6c86fae1679ef3351296fd6713411a08cf8dd1790a4fd05fae8688164
+skills/statechart/scripts/test/corpus/MediaPlayerProps/verdict-5.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	216d2056efb64e6faa5c7308edf867c2afc6e6a1d6ddf07002594b485c7ce912
+skills/statechart/scripts/test/corpus/MediaPlayerProps/verdict-6.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	b49701e67cc496ea35ed694827292dccf339fd91715de20767cd07d6c5c6fd25
+skills/statechart/scripts/test/corpus/MediaPlayerProps/view.mjs	original	mode-runtime subagent	reviewed for Codex and Zwift branding	019383f6b4f753b5721485f3cff9b3762e046f4cea134f26a709e9ce4c43dde9
+skills/statechart/scripts/test/corpus/PickWorker/ChartRun.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	4f40eb880b1f9befd8cf11a76be0cbab05fc2d8634a7baccfe11842c3d4c1e3a
+skills/statechart/scripts/test/corpus/PickWorker/PickWorker.cfg	original	mode-runtime subagent	reviewed for Codex and Zwift branding	0da0617d4459668020b0bf88a29b1eee01882c88f204728eb9a38493b60bd4b3
+skills/statechart/scripts/test/corpus/PickWorker/PickWorker.tla	original	mode-runtime subagent	reviewed for Codex and Zwift branding	8cd92057affd06b367a85c1d87c81b827cfdfd41a2bea10989ce911ed2fd3124
+skills/statechart/scripts/test/corpus/PickWorker/chart.mmd	original	mode-runtime subagent	reviewed for Codex and Zwift branding	5fff795e5d0da737cdf1fef95c993ea6ca45fd9f5fb61e163d2e292c40186a64
+skills/statechart/scripts/test/corpus/PickWorker/graph.dot	original	mode-runtime subagent	reviewed for Codex and Zwift branding	1d60f0497f939134c6cb91f5e869445aa7da04ba8caad5128f1509a28c31f245
+skills/statechart/scripts/test/corpus/PickWorker/report.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	87546454dfa4b96d15c53dbdc6eef469e0390f14b4ff1eb370d4437508f90da8
+skills/statechart/scripts/test/corpus/PickWorker/sany.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	866b218db376118471b5635ad1b050c14552c1cc7df37d65f9a5ce5b4734dbaf
+skills/statechart/scripts/test/corpus/PickWorker/verdict-1.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	15b0c426cb8319cf3afdc84e77917416b458f65a72bbf02d5c2505f7456a696c
+skills/statechart/scripts/test/corpus/Shadow/ChartRun.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	984febd915710ba0a49fc9a6668b9d2c8830382b825f4b3c18570e31a3471dda
+skills/statechart/scripts/test/corpus/Shadow/Shadow.cfg	original	mode-runtime subagent	reviewed for Codex and Zwift branding	4f0262dfe7368f4c8df45c47e912fca78885a24053b31cd67c3b33f49e61f7a1
+skills/statechart/scripts/test/corpus/Shadow/Shadow.tla	original	mode-runtime subagent	reviewed for Codex and Zwift branding	c7ed4c7ab82d7ed8515621d4ff88d349920cd1a4783a2ee47a71278af9dfe148
+skills/statechart/scripts/test/corpus/Shadow/ShadowLib.tla	original	mode-runtime subagent	reviewed for Codex and Zwift branding	3590a4185a432b4fbaa867d7d717482a0d57e2374711bf3bb65244cc936bc666
+skills/statechart/scripts/test/corpus/Shadow/ShadowSub.tla	original	mode-runtime subagent	reviewed for Codex and Zwift branding	b84408d4b14dc56402b7cc8e0e11589f8b0f7bb3dc3f1408afcc7518f3fb7f1f
+skills/statechart/scripts/test/corpus/Shadow/chart.mmd	original	mode-runtime subagent	reviewed for Codex and Zwift branding	386fbbc905c7c89c4457a3d48f4b76bdf42861093188dc7369c32aef7b48658c
+skills/statechart/scripts/test/corpus/Shadow/graph.dot	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a1b348348bf032ff81cfd796ae19f8cdcf491d5af18eab73ebfca3058a15691b
+skills/statechart/scripts/test/corpus/Shadow/report.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	16788146e79b669a06152e69fbb0b3ef738bab2bd37c6c278137e7b96373dd97
+skills/statechart/scripts/test/corpus/Shadow/sany.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	e7396792c0a425651e9765498b6922a95fa63c37d3fa9927137b3c35596eb310
+skills/statechart/scripts/test/corpus/Shadow/verdict-1.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	f30448a5cc57209f59c6b34d8230ed30d0aa72e731f41acb5b3a54dc8e840f9b
+skills/statechart/scripts/test/corpus/SpacedNames/ChartRun.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a1dd9da4e12ab2d25685839f838e091305e70143bc3f51dbf8bdb1b7d76ddd19
+skills/statechart/scripts/test/corpus/SpacedNames/SpacedNames.cfg	original	mode-runtime subagent	reviewed for Codex and Zwift branding	e32044a2d32c9e2c9c9459b257ff062bd33028914d392b0ec1d25815772dfbfa
+skills/statechart/scripts/test/corpus/SpacedNames/SpacedNames.tla	original	mode-runtime subagent	reviewed for Codex and Zwift branding	0685a3f78ae2d30bc883201b3c9fc16f9f590b15d02a62295da3cc48566d777b
+skills/statechart/scripts/test/corpus/SpacedNames/chart.mmd	original	mode-runtime subagent	reviewed for Codex and Zwift branding	de161c72bdfa1feff2ccbebbc39db5fee3bd4b1d789945802b310838875a2bf1
+skills/statechart/scripts/test/corpus/SpacedNames/graph.dot	original	mode-runtime subagent	reviewed for Codex and Zwift branding	1f9e6cbdfd8b30ca4ec376261e8fb6114a7efe4ef1a5ec01ebeeaaddcabce211
+skills/statechart/scripts/test/corpus/SpacedNames/report.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	62126c7b8928173a53952a5372c703b6c6af5155331f6b8547b21e957319540d
+skills/statechart/scripts/test/corpus/SpacedNames/sany.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	415faa44484371020747737d57b69bec28640dce60adf5cbeac26d0a79f89953
+skills/statechart/scripts/test/corpus/SpacedNames/verdict-1.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a1fb50e6c86fae1679ef3351296fd6713411a08cf8dd1790a4fd05fae8688164
+skills/statechart/scripts/test/corpus/SpacedNames/verdict-1.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a44dc1ea1a9a5e2bb3128b658f0fbd39e2d85f999f598ffeab2e9ebb0e408c09
+skills/statechart/scripts/test/corpus/SpacedNames/verdict-2.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	25d4f2a86deb5e2574bb3210b67bb24fcc4afb19f93a7b65a057daa874a9d18e
+skills/statechart/scripts/test/corpus/SpacedNames/verdict-2.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	7f61686a516bb989e8371e20308020bf8c70a111ec896ccde9f1c6c5c62bb9ec
+skills/statechart/scripts/test/corpus/TwoPhase/ChartRun.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	7b635f42861364b7ff51244b80401e104dc88b93e1d53ba377964e847c657d27
+skills/statechart/scripts/test/corpus/TwoPhase/TwoPhase.cfg	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a4e4546592e8e5d361ccbeb4808338e15fb61338fdbc84c358e9b0a41a58a704
+skills/statechart/scripts/test/corpus/TwoPhase/TwoPhase.tla	original	mode-runtime subagent	reviewed for Codex and Zwift branding	c27868893c2f4de82a0c561af6fc65d2abe233e840d9a2d830920d1487ab793d
+skills/statechart/scripts/test/corpus/TwoPhase/chart.mmd	original	mode-runtime subagent	reviewed for Codex and Zwift branding	e8761c527163b1d15d699da7f7e026337c939e51b2f82feea82a93ce1d67482c
+skills/statechart/scripts/test/corpus/TwoPhase/graph.dot	original	mode-runtime subagent	reviewed for Codex and Zwift branding	0276d507b1457de02d25cacced67c19b3442764225bc183e90c8c6745ba5f680
+skills/statechart/scripts/test/corpus/TwoPhase/report.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	6b847fe8dc3e043d17c1ec3df7b18c7d618a1b7a351eb8f1943fa5d70a1b640b
+skills/statechart/scripts/test/corpus/TwoPhase/sany.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	3944566b6d4e0b3457c9b30320041e19e97d45f40a01b9a868ddeb9d7ad6304e
+skills/statechart/scripts/test/corpus/TwoPhase/verdict-1.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a1fb50e6c86fae1679ef3351296fd6713411a08cf8dd1790a4fd05fae8688164
+skills/statechart/scripts/test/corpus/TwoPhase/verdict-1.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	4a7ffa2360d918f6e00dad63e7b1d182074c7c07e8d3e4ab91056b71e1eb94d0
+skills/statechart/scripts/test/corpus/TwoPhase/verdict-2.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	362998ef368b7fd6c6a8f9e490e9aeaccb8ac380c80497b985909d6335b6bdf7
+skills/statechart/scripts/test/corpus/TwoPhase/view.mjs	original	mode-runtime subagent	reviewed for Codex and Zwift branding	25bc78b0ee8c7ab24ed1f0dbe78ed60adce0f086579c03bf8c97d02c448c7f26
+skills/statechart/scripts/test/corpus/TwoPhaseFixed/ChartRun.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	4a4058bbe55875589a217015c6bb7a9486d834b8f7558279a394e7cbe3334843
+skills/statechart/scripts/test/corpus/TwoPhaseFixed/TwoPhaseFixed.cfg	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a4e4546592e8e5d361ccbeb4808338e15fb61338fdbc84c358e9b0a41a58a704
+skills/statechart/scripts/test/corpus/TwoPhaseFixed/TwoPhaseFixed.tla	original	mode-runtime subagent	reviewed for Codex and Zwift branding	9d9459496de208594596804e0a70faad6390286c7b3fc2b9ae173e61d25ade57
+skills/statechart/scripts/test/corpus/TwoPhaseFixed/chart.mmd	original	mode-runtime subagent	reviewed for Codex and Zwift branding	d7a0b12bfc62b60507334c045369ef53bbeba7e432f0c335a5c0a72e0b667fe7
+skills/statechart/scripts/test/corpus/TwoPhaseFixed/graph.dot	original	mode-runtime subagent	reviewed for Codex and Zwift branding	2a9a55c417ecf703035dce21c7ba347ad6cb3dc50a0a634a6b60f4bfb727a773
+skills/statechart/scripts/test/corpus/TwoPhaseFixed/report.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	598a1594b7768b770d1c4df3b304ac26c2890bbf5bc9610541c5dcbd26c12d9f
+skills/statechart/scripts/test/corpus/TwoPhaseFixed/sany.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	2eb698b9b60b3ec587f382e5a6398b32da62e08e9803e1121e627a697bfaf061
+skills/statechart/scripts/test/corpus/TwoPhaseFixed/verdict-1.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	faa0f4ec4e1a53ad7d7904887a7b4a907d98c0d1645fcdb184f50c5cf0a47ab6
+skills/statechart/scripts/test/corpus/TwoPhaseFixed/view.mjs	original	mode-runtime subagent	reviewed for Codex and Zwift branding	25bc78b0ee8c7ab24ed1f0dbe78ed60adce0f086579c03bf8c97d02c448c7f26
+skills/statechart/scripts/test/corpus/TypeGuard/ChartRun.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	461144ccfd56ee3cf0f9a9d80e520c5b872166b23092d5fd838ecbdb46d64dab
+skills/statechart/scripts/test/corpus/TypeGuard/ChartRun.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	d2a2208828799fb445c51ae3ca3b9388625f082f6e3779a5d7f19d8abf3736c5
+skills/statechart/scripts/test/corpus/TypeGuard/TypeGuard.cfg	original	mode-runtime subagent	reviewed for Codex and Zwift branding	ddd3b43e9455ebfe7ed7c487867352b9466bf60fb35900b84ad5281fe6763766
+skills/statechart/scripts/test/corpus/TypeGuard/TypeGuard.tla	original	mode-runtime subagent	reviewed for Codex and Zwift branding	ccda004cd0e3c40a7c39c200095a12eb3e0cc7c40f9ecabff24026c1cdfc53b4
+skills/statechart/scripts/test/corpus/TypeGuard/chart.mmd	original	mode-runtime subagent	reviewed for Codex and Zwift branding	e180050487251de907e1a25c34a3acf28159d28a3166afd0786c7f8bd1bb52d5
+skills/statechart/scripts/test/corpus/TypeGuard/graph.dot	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a35107023f5a7a2e9833c3c0f67b69e163a7331038510b3dafcd4f4092db7251
+skills/statechart/scripts/test/corpus/TypeGuard/report.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	4c954c446383fcaad78deb5ac19f70fa74fc028f90b576f1d91b2c45e09e0108
+skills/statechart/scripts/test/corpus/TypeGuard/sany.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	cf58712d31a0daab97eb960e7820c7b0c4326dfe785937eef9f7ed2476347ee3
+skills/statechart/scripts/test/corpus/TypeGuard/verdict-1.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a1fb50e6c86fae1679ef3351296fd6713411a08cf8dd1790a4fd05fae8688164
+skills/statechart/scripts/test/corpus/TypeGuard/verdict-1.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	151f37821b02c9cf8d5a0093cda39cb88fe6a35228b4aca3c43675dcccc4e0f5
+skills/statechart/scripts/test/corpus/TypeGuard/verdict-2.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	461144ccfd56ee3cf0f9a9d80e520c5b872166b23092d5fd838ecbdb46d64dab
+skills/statechart/scripts/test/corpus/TypeGuard/verdict-2.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	43e422871d22b59f43e0eedfee8e7068c29bc2a7c81e283886da1d49ab43c3ea
+skills/statechart/scripts/test/corpus/UserNoDeadlock/ChartRun.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	cd34476c89021b7246af8b93d6c6e9f4a27b684e7f027758638d9887c21946e1
+skills/statechart/scripts/test/corpus/UserNoDeadlock/UserNoDeadlock.cfg	original	mode-runtime subagent	reviewed for Codex and Zwift branding	2cf30ce46c41f9d6978b8080f2e0cdd627e0b034e367f98b351882fb0277b748
+skills/statechart/scripts/test/corpus/UserNoDeadlock/UserNoDeadlock.tla	original	mode-runtime subagent	reviewed for Codex and Zwift branding	b4ebd22cce4480f25812ea31f67447df520fb554ed9bd0114641c261f4e2b804
+skills/statechart/scripts/test/corpus/UserNoDeadlock/chart.mmd	original	mode-runtime subagent	reviewed for Codex and Zwift branding	730f79185a86f0345440cfbbcd05eb4b6b9b6e4653e00073708432e341c5fea7
+skills/statechart/scripts/test/corpus/UserNoDeadlock/graph.dot	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a1b348348bf032ff81cfd796ae19f8cdcf491d5af18eab73ebfca3058a15691b
+skills/statechart/scripts/test/corpus/UserNoDeadlock/report.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	53433b379971530176a5e150a14c466c4452d07c523b3207e8b6c2b55c68b0cf
+skills/statechart/scripts/test/corpus/UserNoDeadlock/sany.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	b11bbc9d4985f64b11b09f48029c1c6a84089835cebf4211a56ee6e70e4c226c
+skills/statechart/scripts/test/corpus/UserNoDeadlock/verdict-1.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a1fb50e6c86fae1679ef3351296fd6713411a08cf8dd1790a4fd05fae8688164
+skills/statechart/scripts/test/corpus/UserNoDeadlock/verdict-1.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	be7aa39e15651c6e077334c324acba59134d12c46c3b3f56ccb9ce99804c72a9
+skills/statechart/scripts/test/corpus/UserNoDeadlock/verdict-2.exit	original	mode-runtime subagent	reviewed for Codex and Zwift branding	25d4f2a86deb5e2574bb3210b67bb24fcc4afb19f93a7b65a057daa874a9d18e
+skills/statechart/scripts/test/corpus/UserNoDeadlock/verdict-2.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	7c28fc201126f5fed27442780daf5e92eabe9fcb4edf7dc51edb714ba7f87500
+skills/statechart/scripts/test/differential.test.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	d4d64a7d17b4630616e797f1b184848c2a8b7712777d9982cafee81dc6046a9f
+skills/statechart/scripts/test/drawn.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	369ac67009b9ddfa19e080b9f99e2eeb59fc3616c2b374a92b5b1e653df55919
+skills/statechart/scripts/test/grid/Grid.cfg	original	mode-runtime subagent	reviewed for Codex and Zwift branding	41d15a4d5bef6385c00b30f2126204e74a779d835d37f1ea73669afcfb579ef5
+skills/statechart/scripts/test/grid/Grid.tla	original	mode-runtime subagent	reviewed for Codex and Zwift branding	e52e75d6fccff01cfe385140cbac3339b5820faeb1e567c7edc1267fa99f989e
+skills/statechart/scripts/test/grid/sany.out	original	mode-runtime subagent	reviewed for Codex and Zwift branding	e42a575f90275de315767d9f46ab0881349ebc53206e191aee57501494a5aba9
+skills/statechart/scripts/test/java.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	4fef906fe1dcfdb98dafbd3ecdae1e82589908529ffc11b6bbdcfb8aef505932
+skills/statechart/scripts/test/labels.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	12c8403517b423ea7af0ed5c5d788ff872f9ba127ca11555ae128076a27a83ca
+skills/statechart/scripts/test/messages.test.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	70dc23d0a9c76e9949f052c8f426d35463a1416aca2457d09de544654d0f5721
+skills/statechart/scripts/test/pipeline.test.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	0f091c3e6e104fd545e113ad437df8d4856618a775073a37d41050ebf663e479
+skills/statechart/scripts/test/plain-tlc.test.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	f6b042300e66840809e26ba8fef0c7e2bc8bb6b59f3b910ea65dea176e97bf1c
+skills/statechart/scripts/test/render.test.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	717d36625f0ed5edb5086b9bf1993b79801700f9889b58aa7faa38e3fa0d50a2
+skills/statechart/scripts/test/tlc-out.test.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	8a87d6cf32e7225aa0c8031e61b8a2912d8fbb3847a7ec2cd76e26c14e931478
+skills/statechart/scripts/test/tlc.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	73f5cf9dca5ca55aa65d5b342405e31f6eff858ed2bc2124c3e3fbb328259cca
+skills/statechart/scripts/tsconfig.json	original	mode-runtime subagent	reviewed for Codex and Zwift branding	6bb2af53f7b251328e6117cd4fb761468dc4d4b96085d31a19304ccb73c32cc1
+skills/statechart/scripts/worker.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	1f18ed5ef806982e05e8a40fc217e88257700b28b63cb4acbd647872f85f782b
+skills/swarm/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	085b558c6fef2926ec247154d971bad5490e52511d2b269473669167e0ae8d40
+skills/swarm/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/tdd/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	c80ccd382d26288085623e307aeafa91e0a23dc36b3f64030e72793ff070037d
+skills/tdd/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/teach/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	03f546a016401a3729a574ba0ea4dfd2e317a45c041d91f264a136a438857840
+skills/teach/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/technical-writing/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	4b7e61a27e39d9d1221c5436cf619b36d04b067ce41c29e5ad6b61f99da5c87a
+skills/technical-writing/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/typescript-best-practices/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	6598851392fcadf23efac45528609046d75245e8d3d8bec1260e4b8d96115e78
+skills/typescript-best-practices/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/typescript-best-practices/references/patterns.md	original	core-skills subagent	reviewed for Codex and Zwift branding	12e70c9419a8b3f5d6a1ab80e272c1f00a43ac0b3bbf72d68199033570e5de77
+skills/unslop/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	9c0399ffe9081b5f415234bb94990f48f3b83e80935e1fe337ab929a49800818
+skills/unslop/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/why/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	c30ded2e94416f63f02f89ea6b8f1fe4a0d84b7d956c13323ae058ce2a135e5c
+skills/why/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/zmart-help/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	e24f2d0a5a96b9e59c0694e71286ec9aea6b6510db80a1aa33889fd1c1374947
+skills/zmart-help/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/zmart-help/references/prompting.md	original	core-skills subagent	reviewed for Codex and Zwift branding	e28927a34ec650e675d147929c280312f131c1c1963598b6ff2a5de39107accc
+skills/zmart-help/references/recipes.md	original	core-skills subagent	reviewed for Codex and Zwift branding	32f1fc2aa686879ec47bd901e778b30324ff23858f0faa5ab10d91c3425e9a35
+skills/zmart-mode/SKILL.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	8e8ed64169ea0e523ed1aaedb6d5cd27993d175177b115cb1e0563aed6daeb64
+skills/zmart-mode/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
+skills/zmart-mode/playbooks/authoring-a-skill.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	73430b42a9ca44138844d1dbe59a9880f98ce999c29806e9a163c34dc63b8376
+skills/zmart-mode/playbooks/autonomous-run.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	7fd1c443b3bd1404483ab14ca6a136082c41ccaaf7a15d7ca6b6f0168cb6d7f5
+skills/zmart-mode/playbooks/autopilot-full.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	ba2d7de4a65817b6f4af5f9fadb355137720c5dd1f1c08a176d0a3680e347b3c
+skills/zmart-mode/playbooks/autopilot-stack.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	3dc6961df12a74a917571c21de482b42939b728cb4879d1852c51fd9fbabd152
+skills/zmart-mode/playbooks/babysit.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	06fed1fa997c8899d7365fb0f21c0177084fcb8d0561841d2eca753660f63a85
+skills/zmart-mode/playbooks/bug-fix.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	7561037fb8ef4381e8952bf9ab1a5627e86213b80ab9f03414b25974f037ee13
+skills/zmart-mode/playbooks/eval.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a19d5f3a220d7a946c719fea5ebe0789f09a02df890e3f41b6a9b5718a261855
+skills/zmart-mode/playbooks/feature.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	ba01d9d4fdd7adae56bcaff079d7234934e2883e54eab19ebb0371da2ae194d7
+skills/zmart-mode/playbooks/hillclimb.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	6809c17bb0d768796515d0b8b2d4586bcdbcfc6602c84380da3391078d8a8abf
+skills/zmart-mode/playbooks/investigation.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	1009fdb6596a9c06cb93e224ec86bfb60226f2c603474c968a4f2c2983e96a69
+skills/zmart-mode/playbooks/multi-phase-plan.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	98e0ed1acc5410fd23ed52cc399346c7c3f83f9f6f7068f8cc52d95ff84ab653
+skills/zmart-mode/playbooks/opening-a-pr.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	693f092d45c25abae6e47669e5bcc8758955d0151450ec07399fac0a71d4ac22
+skills/zmart-mode/playbooks/pause-safely.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	77968cfe5f4a71a8cd33e0ae8ffcdbd88dd693a212c240457773e6c40c96c21d
+skills/zmart-mode/playbooks/perf-issue.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	5bd2d3078af25672bd5d3222ad6f5c8f22c851aaecb8bb1abab790d4e514ba89
+skills/zmart-mode/playbooks/prototype.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	7aa1f52c691c3d46d5afc527b23f90977fce869ce33573c73c81a4c7f0cde962
+skills/zmart-mode/playbooks/refactoring.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	df8fc25d84a6f15d2e6aa3442b314f9ee077c85f4c41f0f43969785406677794
+skills/zmart-mode/playbooks/runtime-forensics.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	6866856239dcac64a1ea349fcd18fd01f5b2018a0d9b6bc476ad49c64a715d1f
+skills/zmart-mode/playbooks/session-pickup.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	cc94438fc675edb411db601150b74410b14abf3fcad9e7d8090208ab2143aec0
+skills/zmart-mode/playbooks/shipping.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	ae024242342a9ad62194ecd26ee59e2dabf8562becd2ef0921865c87b238fc71
+skills/zmart-mode/playbooks/trace-forensics.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	fc93ff1894b3d874ffad3a12fd27d206f16d0fb6c4cf3e25928050f3174602e7
+skills/zmart-mode/playbooks/visual-parity.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	83e279ebc9877628dfeba8cd47a3528fdf0312346bc97edf0430d591f0af59bd
+skills/zmart-mode/playbooks/worktree-cleanup.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	f7ef23c8403d026c171d202b093e35123a968056b3a31b28f63d2b10807f1221
+skills/zmart-mode/references/bugbot-triage.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	b2d146c770d8d3593e1ef3d77b668039b8e1f78093ea1a86f1d45d7f99614309
+skills/zmart-mode/scripts/bootstrap.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	45f19e8411d76df5ee7f2dcdb65f17e114a0cd7b646810253e7b313b779b9e8f
+skills/zmart-mode/scripts/bun.lock	original	mode-runtime subagent	reviewed for Codex and Zwift branding	f055a828634df0a601fdf36d21ff3486af77981e2b2150c467611d772f6adf4f
+skills/zmart-mode/scripts/package.json	original	mode-runtime subagent	reviewed for Codex and Zwift branding	0e3d252be1f69187b12d042a2d826bcf0f71bbb309e46e956bf383a8b3175734
+skills/zmart-mode/scripts/watch-pr/cli.test.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	a35592b4c6da96caf8d47987e9cd503fab6c7774ab87d11a43f24b4b5df2a9d1
+skills/zmart-mode/scripts/watch-pr/cli.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	89c08863089181a232be782c4b2ed90a1552f44aeecb0dcb7aac2c623620e680
+skills/zmart-mode/scripts/watch-pr/fakes.test-helper.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	cf0c5ee61b4a73444c1b775cfb6c81a40d312e055dd21a1f5eae6276e54de13f
+skills/zmart-mode/scripts/watch-pr/github.test.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	9d9f644388f3516364d47f5eb96c1f977dd6f560bd6005b660d90d3b367cf4b9
+skills/zmart-mode/scripts/watch-pr/github.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	7ba193190d488c8ce0982c85234ebea026e9a595703e99a3c3df0fcd640ddd18
+skills/zmart-mode/scripts/watch-pr/policy.test.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	7ee38c20ed605f4a255f1f78e5a4be56b3563fcd8d3d65cfeea58d44c3f58d53
+skills/zmart-mode/scripts/watch-pr/policy.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	2d4823aeea788acab258ec60eb52e7b9e3a23a6649850af128d6ada5c33d7778
+skills/zmart-mode/scripts/watch-pr/render.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	2b709e86628d5b8fdb61f860e60ababc342b0626c67576305442cf548283a604
+skills/zmart-mode/scripts/watch-pr/tsconfig.json	original	mode-runtime subagent	reviewed for Codex and Zwift branding	1ecccc72320b086c63ce3f73c959896fd747363e63553b3b1136296ea4069e45
+skills/zmart-mode/scripts/watch-pr/types.compile.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	621af4c9a664fbf699a9737efccdc248abb416df8819c9dc5f824beae2b9b1d6
+skills/zmart-mode/scripts/watch-pr/types.ts	original	mode-runtime subagent	reviewed for Codex and Zwift branding	daa66c56220bae084c18cc6d3b0a2c66c0e72206d298e40973b44ee085ce16d2
+skills/zmart-mode/scripts/watch-pr/watch-pr	original	mode-runtime subagent	reviewed for Codex and Zwift branding	d955603be6cc0e8b8ffcec722f635192b2261410b1f2929abea94480e47eb5d4
+skills/zmart-mode/scripts/worktree-audit.sh	original	mode-runtime subagent	reviewed for Codex and Zwift branding	cdca7f41ab90ded57561341935cef2e78714cb3a4feba5311d61b177ac72a382
+skills/zmart-mode/scripts/worktree-audit.test.py	added	primary	reviewed for Codex and Zwift branding	1b0dbda437e09359c95fb37eaa7dabdc53ee9b289cbe0c6f2babc3b9d565fb2c
+skills/zmart-mode/worker.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	ebd6b01ada41757cf6aade51ea041e470e8ac298c176fc7c67bc71927425f712
