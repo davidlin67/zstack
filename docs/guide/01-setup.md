@@ -4,7 +4,7 @@ This edition uses Codex skills directly. You can use the inherited parent model 
 
 ## Expose the skills
 
-Inside this checkout, `.agents/skills/` contains relative links to the canonical `skills/` directory. Start a new Codex chat here and invoke `$zmart-help` or `$zmart-mode`.
+Inside this checkout, `.agents/skills/` contains relative links to the canonical `skills/` directory. Start a new Codex chat here and invoke `$zmode-help` or `$zmode`.
 
 For another repository, run the installer from this checkout:
 
@@ -38,11 +38,11 @@ For concurrency, retries, parsers, or state machines, [`$create-formal-verificat
 ## Run a first task
 
 ```text
-$zmart-mode add a --json flag to this command. text output stays byte-identical. verify both.
+$zmode add a --json flag to this command. text output stays byte-identical. verify both.
 ```
 
 The skill selects the Feature playbook and keeps a plan using the session's plan tool when available. Otherwise it tracks progress in concise updates.
 
-For continuity, say “use `$zmart-mode` for this task and follow-ups.” To make it a repository convention, add a short instruction to `AGENTS.md` that names the skill and when it applies. The skill does not require a persistent UI mode.
+For continuity, say “use `$zmode` for this task and follow-ups.” To make it a repository convention, add a short instruction to `AGENTS.md` that names the skill and when it applies. The skill does not require a persistent UI mode.
 
-Next: [Route work through `$zmart-mode`](./02-zmart-mode.md).
+Next: [Route work through `$zmode`](./02-zmode.md).

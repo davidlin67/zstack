@@ -1,6 +1,6 @@
 # Codex platform contract
 
-This edition runs directly in Codex. Skills contain Codex instructions; no Cursor or Claude adapter is required. The portable package uses the `zstack` identity and Zwift branding. Its primary workflow is `$zmart-mode`, pronounced “smart mode.”
+This edition runs directly in Codex. Skills contain Codex instructions; no Cursor or Claude adapter is required. The portable package uses the `zstack` identity and Zwift branding. Its primary workflow is `$zmode`.
 
 ## Discovery and installation
 
@@ -14,7 +14,7 @@ To distribute this as a local plugin instead of linking individual skills, add i
 
 Explicit skill invocation uses `$skill-name`. An agent can also read a bundled skill's `SKILL.md` and follow it. Skills formerly marked explicit-only preserve that policy in `agents/openai.yaml` with `policy.allow_implicit_invocation: false`. Public skill instructions remain in `SKILL.md`, not in the interface metadata.
 
-Repository conventions belong in `AGENTS.md`. Ask to use `$zmart-mode` for a task and follow-ups, or add a scoped repository instruction when persistence is wanted. The skill does not create a persistent UI mode.
+Repository conventions belong in `AGENTS.md`. Ask to use `$zmode` for a task and follow-ups, or add a scoped repository instruction when persistence is wanted. The skill does not create a persistent UI mode.
 
 ## Tools and delegates
 
@@ -24,7 +24,7 @@ Tool availability depends on the Codex surface and session. Use the schema actua
 | --- | --- |
 | Read, search, edit, execute | Available filesystem/shell tools; prefer `rg` for searches and a patch tool for edits. |
 | Delegate | Available collaboration tools, such as `spawn_agent`, `send_message`, and `wait_agent`; otherwise do the work directly and keep a separate review pass. |
-| Use an agent brief | Read `agents/zmart-agent.md` or `agents/comment-reviewer.md` and put the relevant instructions and paths in a worker brief. These files do not register agent types. |
+| Use an agent brief | Read `agents/zmode-agent.md` or `agents/comment-reviewer.md` and put the relevant instructions and paths in a worker brief. These files do not register agent types. |
 | Isolate writers | Assign disjoint files or create and name a worktree before delegating. Spawning an agent does not isolate the filesystem. |
 | Track a plan | Use a plan tool when available; otherwise keep a short checklist and progress updates. |
 | Ask a question | Use an available question tool or ask in chat. Continue independent authorized work while an optional answer is pending. |

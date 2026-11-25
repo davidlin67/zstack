@@ -11,7 +11,7 @@ const commanderPackagePath = join(
 );
 const installKeyPath = join(
   nodeModulesDirectory,
-  ".zmart-mode-tools-install-key"
+  ".zmode-tools-install-key"
 );
 
 function currentInstallKey(): string {

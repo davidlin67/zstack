@@ -18,7 +18,7 @@ Make the loop autonomous only after all four hold. Until then, run it while you 
 A good handoff has the goal, the finish condition, permissions, and an escape hatch. It doesn't need to be long:
 
 ```text
-$zmart-mode im going to bed. migrate every caller to the new parser in a fresh worktree off <base>.
+$zmode im going to bed. migrate every caller to the new parser in a fresh worktree off <base>.
 done means zero old callers, all parser fixtures pass, old api deleted.
 keep a decision log. don't ask me before committing.
 continue until done. if you hit a blocker you cannot resolve, report the evidence and resume point.
@@ -30,12 +30,12 @@ Walk through what each line buys you:
 - "done means..." turns the goal into checks every iteration can run.
 - "fresh worktree off `<base>`" keeps the run from colliding with anything else you have open.
 - "don't ask me before committing" pre-answers the permission the agent would otherwise block on.
-- The [Autonomous run playbook](../../skills/zmart-mode/playbooks/autonomous-run.md) keeps checking the finish condition in the active chat. If you explicitly request a Codex goal and goal tools are available, it uses them; otherwise it continues the task directly. A prompt cannot guarantee execution after the app or execution host stops.
+- The [Autonomous run playbook](../../skills/zmode/playbooks/autonomous-run.md) keeps checking the finish condition in the active chat. If you explicitly request a Codex goal and goal tools are available, it uses them; otherwise it continues the task directly. A prompt cannot guarantee execution after the app or execution host stops.
 - The escape hatch lets it stop at a genuine dead end and write up why, which beats eight hours of creative goal reinterpretation.
 
-Because you'll review this work after stepping away, `$zmart-mode` routes it through [`$figure-it-out`](../../skills/figure-it-out/SKILL.md), which designs the run's phases before any code and wires in the decision log.
+Because you'll review this work after stepping away, `$zmode` routes it through [`$figure-it-out`](../../skills/figure-it-out/SKILL.md), which designs the run's phases before any code and wires in the decision log.
 
-To stop a run on purpose, tell the agent to pause, or that you're about to go offline or restart Codex. The [Pause safely playbook](../../skills/zmart-mode/playbooks/pause-safely.md) finishes or backs out of the current step, commits a work-in-progress checkpoint, and writes a resume note. A fresh chat picks the work up from that note through the Session pickup playbook. Saying "keep going" never triggers a pause.
+To stop a run on purpose, tell the agent to pause, or that you're about to go offline or restart Codex. The [Pause safely playbook](../../skills/zmode/playbooks/pause-safely.md) finishes or backs out of the current step, commits a work-in-progress checkpoint, and writes a resume note. A fresh chat picks the work up from that note through the Session pickup playbook. Saying "keep going" never triggers a pause.
 
 ## What the loop does all night
 
@@ -71,34 +71,34 @@ For a quick status instead of an audit, run [`$ketchup`](../../skills/ketchup/SK
 
 The contract above drives one task to one finish condition. Some nights hold more, a queue of independent changes or a whole program. Two playbooks and one skill scale the same trust up.
 
-[Autopilot-full](../../skills/zmart-mode/playbooks/autopilot-full.md) runs a queue of independent PRs to merged. Each PR gets one owner agent that carries it from build through merge, and no owner merges on its own verdict. A swarm of fresh verifiers checks the owner's code-ready head. A later rebase or minor fix gets one fresh verifier, and only new behavior or a large new diff calls the full swarm again. Only a clean verdict on the patch that merges authorizes the merge:
+[Autopilot-full](../../skills/zmode/playbooks/autopilot-full.md) runs a queue of independent PRs to merged. Each PR gets one owner agent that carries it from build through merge, and no owner merges on its own verdict. A swarm of fresh verifiers checks the owner's code-ready head. A later rebase or minor fix gets one fresh verifier, and only new behavior or a large new diff calls the full swarm again. Only a clean verdict on the patch that merges authorizes the merge:
 
 ```text
-$zmart-mode full autopilot on this queue. each item is independent. i want them merged by morning.
+$zmode full autopilot on this queue. each item is independent. i want them merged by morning.
 ```
 
-[Autopilot-stack](../../skills/zmart-mode/playbooks/autopilot-stack.md) is Autopilot-full without the merge. You wake up to verified PRs, each with its verdict, and you review and land them yourself. A PR stacks only on a PR it builds on. Pick it over Autopilot-full when you want your own eyes on the work before anything merges:
+[Autopilot-stack](../../skills/zmode/playbooks/autopilot-stack.md) is Autopilot-full without the merge. You wake up to verified PRs, each with its verdict, and you review and land them yourself. A PR stacks only on a PR it builds on. Pick it over Autopilot-full when you want your own eyes on the work before anything merges:
 
 ```text
-$zmart-mode autopilot these five changes, but don't merge. i'll land them in the morning.
+$zmode autopilot these five changes, but don't merge. i'll land them in the morning.
 ```
 
-A whole program, such as a migration across many packages, has no playbook of its own. `$zmart-mode` routes large or cross-cutting work to [`$figure-it-out`](../../skills/figure-it-out/SKILL.md), which designs one rigorous run for it:
+A whole program, such as a migration across many packages, has no playbook of its own. `$zmode` routes large or cross-cutting work to [`$figure-it-out`](../../skills/figure-it-out/SKILL.md), which designs one rigorous run for it:
 
 ```text
-$zmart-mode migrate every package to the new store. own it until each one is converted and merged. i'll check in twice a day.
+$zmode migrate every package to the new store. own it until each one is converted and merged. i'll check in twice a day.
 ```
 
 ## Run many projects in parallel
 
-Use a separate Codex project or chat for each substantial body of work. The coordinator can delegate subtasks through the tools available in that session. Give workers the [worker brief](../../skills/zmart-mode/worker.md), a concrete completion check, and an isolated worktree or disjoint ownership.
+Use a separate Codex project or chat for each substantial body of work. The coordinator can delegate subtasks through the tools available in that session. Give workers the [worker brief](../../skills/zmode/worker.md), a concrete completion check, and an isolated worktree or disjoint ownership.
 
 Related chats are useful context only when a thread tool can retrieve them or you provide their contents. Do not assume that grouping chats exposes all their history to workers. Local subagents do not imply cloud execution or continued work while the host sleeps.
 
 For a queue of independent PRs, use Autopilot-stack for verified drafts or Autopilot-full when merging is explicitly authorized. Each PR still needs a fresh verifier for the revision being merged.
 
 ```text
-$zmart-mode refactor this repo so its architecture is easier for agents to use. use $correct and $architect to find recurring mistakes. use accessible history as evidence and prototypes to answer technical questions. come back with a plan backed by data. wait for me to approve implementation.
+$zmode refactor this repo so its architecture is easier for agents to use. use $correct and $architect to find recurring mistakes. use accessible history as evidence and prototypes to answer technical questions. come back with a plan backed by data. wait for me to approve implementation.
 ```
 
 ## Let loops start themselves

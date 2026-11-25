@@ -59,7 +59,7 @@ Group the combined signals into sections. Common ones (use only what applies):
 - **Process**: git worktrees, commits, PRs, review/merge tooling.
 - **Skills**: skill-authoring habits, fix-the-skill-first, proposing new skills.
 
-The **zmart-mode** skill shows an engineering workflow structure. Read it for granularity, without copying its contents into the new skill. Capture only conventions supported by the user's requests and evidence.
+The **zmode** skill shows an engineering workflow structure. Read it for granularity, without copying its contents into the new skill. Capture only conventions supported by the user's requests and evidence.
 
 ### 4. Draft the skill
 

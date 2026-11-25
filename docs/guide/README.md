@@ -1,13 +1,13 @@
 # The zstack guide
 
-Engineering workflows for Zwift. The main entry point is **zmart mode**, pronounced **“smart mode.”**
+Engineering workflows for Zwift. The main entry point is **zmode**.
 
-zstack works best when you stop micromanaging the agent. You describe what you want and how you'll know it's done. `$zmart-mode` picks the playbook, runs the other skills as the steps need them, and shows you the evidence. This guide teaches that habit with realistic prompts.
+zstack works best when you stop micromanaging the agent. You describe what you want and how you'll know it's done. `$zmode` picks the playbook, runs the other skills as the steps need them, and shows you the evidence. This guide teaches that habit with realistic prompts.
 
 Here's what you'll learn:
 
 1. [Set up zstack](./01-setup.md). Expose the skills and optionally choose model preferences.
-2. [Route work through `$zmart-mode`](./02-zmart-mode.md). Give it a goal and watch it pick a playbook.
+2. [Route work through `$zmode`](./02-zmode.md). Give it a goal and watch it pick a playbook.
 3. [Understand the code](./03-understand.md). A read-only investigation, then `$how`, `$why`, `$teach`, and `$recall` before you edit anything.
 4. [Design the change](./04-design.md). `$architect`, `$arena`, `$swarm`, `$interrogate`, prototypes, and plans before code locks in a shape.
 5. [Build and clean the change](./05-build-and-clean.md). The build playbooks, `$tdd`, `$unslop`, and `$no-comments`.
@@ -19,10 +19,10 @@ Here's what you'll learn:
 
 Read the pages in order the first time. After that, each page stands alone.
 
-When you're stuck, or can't tell which skill fits, type [`$zmart-help`](../../skills/zmart-help/SKILL.md) with your question:
+When you're stuck, or can't tell which skill fits, type [`$zmode-help`](../../skills/zmode-help/SKILL.md) with your question:
 
 ```text
-$zmart-help which skill should i use to review this branch?
+$zmode-help which skill should i use to review this branch?
 ```
 
 It answers, hands you a prompt to send, and links the skill or guide page the answer came from. It doesn't start the work, because a zstack run spends real tokens, so you send the prompt when you're ready. It runs only when you type it.
@@ -32,9 +32,9 @@ It answers, hands you a prompt to send, and links the skill or guide page the an
 Give the agent a goal and a way to check it, in your own words:
 
 ```text
-$zmart-mode the export writes duplicate rows when a retry lands mid-run. repro first, then fix and verify.
+$zmode the export writes duplicate rows when a retry lands mid-run. repro first, then fix and verify.
 ```
 
-You don't need to name a playbook or list skills. "repro first" and a checkable outcome are all the routing signal `$zmart-mode` needs. It matches the Bug fix playbook, tracks the steps in a plan, and calls the right skills as each step fires.
+You don't need to name a playbook or list skills. "repro first" and a checkable outcome are all the routing signal `$zmode` needs. It matches the Bug fix playbook, tracks the steps in a plan, and calls the right skills as each step fires.
 
 Next: [Set up zstack](./01-setup.md).

@@ -2,11 +2,11 @@
 
 Zwift’s Codex-native engineering workflows for design, implementation, verification, and review.
 
-Start with **zmode**, Give it a goal and a checkable finish condition; it selects a playbook and works toward a verified result.
+Start with **zmode**. Give it a goal and a checkable finish condition; it selects a playbook and works toward a verified result.
 
 ## install
 
-Skills are already discoverable in this checkout through `.agents/skills/`. Start a new Codex chat in this repository and invoke `$zmart-mode`.
+Skills are already discoverable in this checkout through `.agents/skills/`. Start a new Codex chat in this repository and invoke `$zmode`.
 
 To use them in another repository, link this checkout's skills into that repository:
 
@@ -22,29 +22,29 @@ The root `plugin.json` also packages the skills for the Codex plugin system, inc
 ## get started
 
 1. Optionally run [`$setup-zstack`](./skills/setup-zstack/SKILL.md) to record per-role preferences. Every role inherits the parent chat's model by default.
-2. Use [`$zmart-mode`](./skills/zmart-mode/SKILL.md) for a task that needs rigor, with a goal and a checkable finish condition.
+2. Use [`$zmode`](./skills/zmode/SKILL.md) for a task that needs rigor, with a goal and a checkable finish condition.
 
 ```text
-$zmart-mode users get two notifications after a retry. reproduce first, then fix and verify.
+$zmode users get two notifications after a retry. reproduce first, then fix and verify.
 ```
 
-The [guide](./docs/guide/README.md) walks through setup, design, verification, and longer runs. [`$zmart-help`](./skills/zmart-help/SKILL.md) answers questions without starting a run.
+The [guide](./docs/guide/README.md) walks through setup, design, verification, and longer runs. [`$zmode-help`](./skills/zmode-help/SKILL.md) answers questions without starting a run.
 
 ## usage
 
-`$zmart-mode` reads your request, selects a playbook, and uses other skills as needed. Explicit invocation uses `$name`; an agent can also read the corresponding `skills/<name>/SKILL.md` and follow it. No slash-command aliases or custom subagent types need to be registered.
+`$zmode` reads your request, selects a playbook, and uses other skills as needed. Explicit invocation uses `$name`; an agent can also read the corresponding `skills/<name>/SKILL.md` and follow it. No slash-command aliases or custom subagent types need to be registered.
 
-### just use [`$zmart-mode`](./skills/zmart-mode/SKILL.md)
+### just use [`$zmode`](./skills/zmode/SKILL.md)
 
-zmart mode is the entry point for rigorous engineering work. It includes twenty-two playbooks:
+zmode is the entry point for rigorous engineering work. It includes twenty-two playbooks:
 
 ```
-$zmart-mode this pr has a subtle bug where the scroll drifts every 750ms even when idle. repro
+$zmode this pr has a subtle bug where the scroll drifts every 750ms even when idle. repro
 first, then fix and verify.
 ```
 
 ```
-$zmart-mode i'm going to bed. land the stack even if ci flakes. i want everything merged by
+$zmode i'm going to bed. land the stack even if ci flakes. i want everything merged by
 morning.
 ```
 
@@ -53,28 +53,28 @@ morning.
 
 | playbook | for |
 |---|---|
-| [investigation](./skills/zmart-mode/playbooks/investigation.md) | a read-only question. how does x work, why was y built this way, are we sure. |
-| [bug fix](./skills/zmart-mode/playbooks/bug-fix.md) | reproduce a defect, root-cause it, and fix with runtime evidence. |
-| [perf](./skills/zmart-mode/playbooks/perf-issue.md) | trace a measured slowness and improve it against a baseline. |
-| [hillclimb](./skills/zmart-mode/playbooks/hillclimb.md) | sustained, scientific improvement of one metric against a target, looping hypotheses with before/after measurement and one commit per accepted win. |
-| [runtime forensics](./skills/zmart-mode/playbooks/runtime-forensics.md) | diagnose a live symptom (leak, idle-cpu spin, glitch) from instrumentation. |
-| [trace forensics](./skills/zmart-mode/playbooks/trace-forensics.md) | diagnose a captured profiling artifact (cpuprofile, trace, spindump, heap snapshot). |
-| [feature](./skills/zmart-mode/playbooks/feature.md) | new or changed behavior, built from a named data shape. |
-| [refactoring](./skills/zmart-mode/playbooks/refactoring.md) | a behavior-preserving change to structure or shape. |
-| [prototype](./skills/zmart-mode/playbooks/prototype.md) | a throwaway sketch to make a design or behavioral decision cheaply, or to settle an empirical fork by observing it. |
-| [visual parity](./skills/zmart-mode/playbooks/visual-parity.md) | pixel-exact ui equivalence between two implementations. |
-| [authoring a skill](./skills/zmart-mode/playbooks/authoring-a-skill.md) | writing or editing a SKILL.md. |
-| [eval](./skills/zmart-mode/playbooks/eval.md) | test how a skill or prompt change affects agent behavior, blinded. |
-| [babysit](./skills/zmart-mode/playbooks/babysit.md) | drive a pr or a stack to merge-ready: conflicts, review threads, ci. |
-| [shipping](./skills/zmart-mode/playbooks/shipping.md) | independently verify a green stack, then land the contiguous verified run bottom-up through github by default or origin when available. |
-| [autonomous run](./skills/zmart-mode/playbooks/autonomous-run.md) | drive a long task to completion without stopping. |
-| [autopilot-full](./skills/zmart-mode/playbooks/autopilot-full.md) | run independent prs to merged with one owner per pr. a swarm verifies each code-ready head, and every later change to the patch gets a fresh check. |
-| [autopilot-stack](./skills/zmart-mode/playbooks/autopilot-stack.md) | autopilot-full without the merge. build and verify prs for the operator to review and land, stacking a pr only on a pr it builds on. |
-| [session pickup](./skills/zmart-mode/playbooks/session-pickup.md) | resume or take over a prior agent's in-flight work. |
-| [pause safely](./skills/zmart-mode/playbooks/pause-safely.md) | suspend in-flight work cleanly so it can be resumed later. |
-| [multi-phase plan](./skills/zmart-mode/playbooks/multi-phase-plan.md) | work that spans phases or stacked PRs. |
-| [worktree cleanup](./skills/zmart-mode/playbooks/worktree-cleanup.md) | reclaim disk by pruning merged or abandoned worktrees and stale ios simulators, safety-gated. |
-| [opening a pr](./skills/zmart-mode/playbooks/opening-a-pr.md) | open a ready pr from small ordered commits with a conventional commits title and a briefing-style body. used when opening a pr is requested. |
+| [investigation](./skills/zmode/playbooks/investigation.md) | a read-only question. how does x work, why was y built this way, are we sure. |
+| [bug fix](./skills/zmode/playbooks/bug-fix.md) | reproduce a defect, root-cause it, and fix with runtime evidence. |
+| [perf](./skills/zmode/playbooks/perf-issue.md) | trace a measured slowness and improve it against a baseline. |
+| [hillclimb](./skills/zmode/playbooks/hillclimb.md) | sustained, scientific improvement of one metric against a target, looping hypotheses with before/after measurement and one commit per accepted win. |
+| [runtime forensics](./skills/zmode/playbooks/runtime-forensics.md) | diagnose a live symptom (leak, idle-cpu spin, glitch) from instrumentation. |
+| [trace forensics](./skills/zmode/playbooks/trace-forensics.md) | diagnose a captured profiling artifact (cpuprofile, trace, spindump, heap snapshot). |
+| [feature](./skills/zmode/playbooks/feature.md) | new or changed behavior, built from a named data shape. |
+| [refactoring](./skills/zmode/playbooks/refactoring.md) | a behavior-preserving change to structure or shape. |
+| [prototype](./skills/zmode/playbooks/prototype.md) | a throwaway sketch to make a design or behavioral decision cheaply, or to settle an empirical fork by observing it. |
+| [visual parity](./skills/zmode/playbooks/visual-parity.md) | pixel-exact ui equivalence between two implementations. |
+| [authoring a skill](./skills/zmode/playbooks/authoring-a-skill.md) | writing or editing a SKILL.md. |
+| [eval](./skills/zmode/playbooks/eval.md) | test how a skill or prompt change affects agent behavior, blinded. |
+| [babysit](./skills/zmode/playbooks/babysit.md) | drive a pr or a stack to merge-ready: conflicts, review threads, ci. |
+| [shipping](./skills/zmode/playbooks/shipping.md) | independently verify a green stack, then land the contiguous verified run bottom-up through github by default or origin when available. |
+| [autonomous run](./skills/zmode/playbooks/autonomous-run.md) | drive a long task to completion without stopping. |
+| [autopilot-full](./skills/zmode/playbooks/autopilot-full.md) | run independent prs to merged with one owner per pr. a swarm verifies each code-ready head, and every later change to the patch gets a fresh check. |
+| [autopilot-stack](./skills/zmode/playbooks/autopilot-stack.md) | autopilot-full without the merge. build and verify prs for the operator to review and land, stacking a pr only on a pr it builds on. |
+| [session pickup](./skills/zmode/playbooks/session-pickup.md) | resume or take over a prior agent's in-flight work. |
+| [pause safely](./skills/zmode/playbooks/pause-safely.md) | suspend in-flight work cleanly so it can be resumed later. |
+| [multi-phase plan](./skills/zmode/playbooks/multi-phase-plan.md) | work that spans phases or stacked PRs. |
+| [worktree cleanup](./skills/zmode/playbooks/worktree-cleanup.md) | reclaim disk by pruning merged or abandoned worktrees and stale ios simulators, safety-gated. |
+| [opening a pr](./skills/zmode/playbooks/opening-a-pr.md) | open a ready pr from small ordered commits with a conventional commits title and a briefing-style body. used when opening a pr is requested. |
 
 </details>
 
@@ -82,19 +82,19 @@ morning.
 
 when invoked it:
 
-1. matches your task to a [playbook](./skills/zmart-mode/playbooks/) and tracks its steps with an available plan tool or concise progress updates.
+1. matches your task to a [playbook](./skills/zmode/playbooks/) and tracks its steps with an available plan tool or concise progress updates.
 2. routes to the other skills as the steps fire.
 3. writes unslopped replies framed for the consumer and the maintainer.
 
-the full rules and playbooks live in [`skills/zmart-mode/SKILL.md`](./skills/zmart-mode/SKILL.md).
+the full rules and playbooks live in [`skills/zmode/SKILL.md`](./skills/zmode/SKILL.md).
 
-To keep the workflow active for a task, say "use `$zmart-mode` for this task and its follow-ups." For a repository-wide convention, add a short instruction to its `AGENTS.md`. A skill is a reusable workflow, not a persistent UI mode.
+To keep the workflow active for a task, say "use `$zmode` for this task and its follow-ups." For a repository-wide convention, add a short instruction to its `AGENTS.md`. A skill is a reusable workflow, not a persistent UI mode.
 
 Long runs continue in the active chat until their finish condition is met. Use available Codex goal tools only when the user explicitly requests a goal; scheduled automations are for recurring work. Neither is a substitute for watching an active job through completion.
 
 ## skills
 
-[`$zmart-mode`](./skills/zmart-mode/SKILL.md) runs most of these for you when a step needs them (`why`, `architect`, `arena`, `swarm`, `interrogate`, `unslop`, `no-comments`, `technical-writing`, `tdd`, and the principles). the table below is for when you want one directly:
+[`$zmode`](./skills/zmode/SKILL.md) runs most of these for you when a step needs them (`why`, `architect`, `arena`, `swarm`, `interrogate`, `unslop`, `no-comments`, `technical-writing`, `tdd`, and the principles). the table below is for when you want one directly:
 
 ```
 $how do we cancel runs? do we have an n+1 when we look up every run to cancel?
@@ -109,8 +109,8 @@ $interrogate review this pr.
 
 | skill | use it when |
 |---|---|
-| [`$zmart-mode`](./skills/zmart-mode/SKILL.md) | default entry point for any non-trivial task. |
-| [`$zmart-help`](./skills/zmart-help/SKILL.md) | you're new to zstack, or unsure which skill, playbook, or principle fits. finds out what you're trying to do, answers that part, and hands you a prompt to type. runs only when you type `$zmart-help`. |
+| [`$zmode`](./skills/zmode/SKILL.md) | default entry point for any non-trivial task. |
+| [`$zmode-help`](./skills/zmode-help/SKILL.md) | you're new to zstack, or unsure which skill, playbook, or principle fits. finds out what you're trying to do, answers that part, and hands you a prompt to type. runs only when you type `$zmode-help`. |
 | [`$in-your-own-words`](./skills/in-your-own-words/SKILL.md) | you want the agent to play back your goal and the problem before it starts. runs only when you type `$in-your-own-words`. |
 | [`$sharpen`](./skills/sharpen/SKILL.md) | you want a prompt made deeper, not bigger, before you send it: what a top professional would do that you didn't ask for, the raw material they'd start from, their methods and tools, and an outside check that the result is right. hands back the rewritten prompt, which asks the agent to prototype any choice an experiment can settle and leaves product and preference choices to you. doesn't do the task. runs only when you type `$sharpen`. |
 | [`$reframe`](./skills/reframe/SKILL.md) | you can't name what you're building, so you can't ask an agent for it clearly. starts from your files and your own words. if they could describe more than one problem, it lists the two or three it could be, with the sign that tells each apart, and picks the likeliest. then it gives 8 to 12 expert terms ranked by how much they'd change what you build, each tied to the part of your description it names and to a real project whose link it checked. borrows terms from 2 or 3 neighboring fields that solved the same problem under other names, says where each analogy breaks, then rewrites your description with the new words. runs only when you type `$reframe`. |
@@ -151,28 +151,28 @@ $interrogate review this pr.
 
 ### examples
 
-Start a task with [`$zmart-mode`](./skills/zmart-mode/SKILL.md) and let it select the playbook. Invoke a narrower skill directly when its outcome matches the task.
+Start a task with [`$zmode`](./skills/zmode/SKILL.md) and let it select the playbook. Invoke a narrower skill directly when its outcome matches the task.
 
 
 <details>
 <summary>all the examples</summary>
 
 ```
-bug fix:           $zmart-mode this pr has a subtle bug where the scroll drifts every 750ms even
+bug fix:           $zmode this pr has a subtle bug where the scroll drifts every 750ms even
                    when idle. repro first, then fix and verify.
-perf:              $zmart-mode a big list takes a second or two to load even though we virtualize.
+perf:              $zmode a big list takes a second or two to load even though we virtualize.
                    run a cpu trace and tell me why.
-feature:           $zmart-mode build a small feature behind a feature flag. verify it really works.
-prototype:         $zmart-mode build two prototypes of the markdown renderer so we can compare.
+feature:           $zmode build a small feature behind a feature flag. verify it really works.
+prototype:         $zmode build two prototypes of the markdown renderer so we can compare.
                    spawn an agent for each.
-multi-phase:       $zmart-mode open source these skills as a plugin. nothing internal leaks, work
+multi-phase:       $zmode open source these skills as a plugin. nothing internal leaks, work
                    in a temp dir, show me the dependency graph first.
-overnight run:     $zmart-mode i'm going to bed. land the stack even if ci flakes. i want
+overnight run:     $zmode i'm going to bed. land the stack even if ci flakes. i want
                    everything merged by morning.
-babysit:           $zmart-mode check on pr 123. anything outstanding?
-visual parity:     $zmart-mode the row spacing is too tall when this flag is on. the second image
+babysit:           $zmode check on pr 123. anything outstanding?
+visual parity:     $zmode the row spacing is too tall when this flag is on. the second image
                    is correct. repro and fix until it matches.
-figure it out:     $zmart-mode i'm stepping away. migrate every caller from the synchronous store
+figure it out:     $zmode i'm stepping away. migrate every caller from the synchronous store
                    to the new async one, keeping behavior identical. i want to trust it was done
                    right when i'm back.
 how:               $how do we cancel runs? do we have an n+1 when we look up every run to cancel?
@@ -191,20 +191,20 @@ reflect:           $reflect that took too long. capture what we learned so the n
 correct:           $correct
 show-me-your-work: $show-me-your-work keep a decision trail i can review when i'm back.
 automate-me:       $automate-me
-help:              $zmart-help which skill should i use to review this branch?
+help:              $zmode-help which skill should i use to review this branch?
 ```
 
 </details>
 
 ## agent briefs
 
-[`agents/zmart-agent.md`](./agents/zmart-agent.md) and [`agents/comment-reviewer.md`](./agents/comment-reviewer.md) are reusable briefs. The coordinator reads the relevant brief and passes its instructions to an available Codex subagent tool. Markdown files do not register a `subagent_type`.
+[`agents/zmode-agent.md`](./agents/zmode-agent.md) and [`agents/comment-reviewer.md`](./agents/comment-reviewer.md) are reusable briefs. The coordinator reads the relevant brief and passes its instructions to an available Codex subagent tool. Markdown files do not register a `subagent_type`.
 
 Subagents inherit the parent model. An explicit user choice can be applied only if the session supports it. Give parallel writers distinct file ownership or separate worktrees; spawning an agent alone does not isolate its filesystem.
 
 ## principles
 
-twenty-four short skills, one principle each. `zmart-mode` indexes them inline and reads that index at task start. the standalone files are there so other skills can reference a principle by name, and so the index can point at the full rule for each.
+twenty-four short skills, one principle each. `zmode` indexes them inline and reads that index at task start. the standalone files are there so other skills can reference a principle by name, and so the index can point at the full rule for each.
 
 <details>
 <summary>all twenty-four principles</summary>
@@ -254,7 +254,7 @@ The dormant [Ztriage pack](./automations/ztriage/README.md) triages Slack issue 
 python3 scripts/validate-codex.py
 ```
 
-The validator needs Python 3 and PyYAML (`python3 -m pip install pyyaml` if absent). Runtime tools have their own tests under `skills/zmart-mode/scripts/` and `skills/statechart/scripts/`. See [AGENTS.md](./AGENTS.md) for contribution guidance and [the file review](./docs/codex-file-review.tsv) for migration coverage.
+The validator needs Python 3 and PyYAML (`python3 -m pip install pyyaml` if absent). Runtime tools have their own tests under `skills/zmode/scripts/` and `skills/statechart/scripts/`. See [AGENTS.md](./AGENTS.md) for contribution guidance and [the file review](./docs/codex-file-review.tsv) for migration coverage.
 
 ## notices
 

@@ -1,13 +1,13 @@
 ---
-name: zmart-mode
-description: Apply zstack's engineering workflow for Zwift, with deliberate delegation, clear prose, simple code, and verified outcomes. Use for $zmart-mode or requests to work in zmart mode.
+name: zmode
+description: Apply zstack's engineering workflow for Zwift, with deliberate delegation, clear prose, simple code, and verified outcomes. Use for $zmode or requests to work in zmode.
 ---
 
-# zmart mode
+# zmode
 
-zmart is pronounced “smart”. This is the zstack engineering workflow for Zwift.
+zmode is the zstack engineering workflow for Zwift.
 
-Bundled skills live at `../<name>/SKILL.md` from this file, so include this file's absolute path when a delegate needs this workflow. `agents/zmart-agent.md` at the collection root is a prompt reference, not a registered Codex agent type.
+Bundled skills live at `../<name>/SKILL.md` from this file, so include this file's absolute path when a delegate needs this workflow. `agents/zmode-agent.md` at the collection root is a prompt reference, not a registered Codex agent type.
 
 ## Non-negotiables
 

@@ -3,7 +3,7 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "@codex-skill/zmart-mode-tools",
+      "name": "@codex-skill/zmode-tools",
       "dependencies": {
         "commander": "14.0.0",
       },

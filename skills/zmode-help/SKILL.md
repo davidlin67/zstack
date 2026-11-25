@@ -1,21 +1,21 @@
 ---
-name: zmart-help
-description: Guides users through zstack setup, $zmart-mode, and picking the skill, playbook, or principle for a task. Type $zmart-help with a question.
+name: zmode-help
+description: Guides users through zstack setup, $zmode, and picking the skill, playbook, or principle for a task. Type $zmode-help with a question.
 ---
 
-# Zmart help
+# zmode help
 
-zstack is Zwift's Codex workflow collection. Its engineering mode is **zmart**, pronounced “smart”.
+zstack is Zwift's Codex workflow collection. Its engineering workflow is **zmode**.
 
 Answer the user's question about zstack, give a prompt they can send, and link the local file that supports the answer. Read the routed file before explaining it. Prefer the installed Codex-native source over upstream documentation, whose tool instructions may differ.
 
-For a help question, explain without starting the task. A message such as "use zstack to fix this bug" asks for action: read [`zmart-mode`](../zmart-mode/SKILL.md) and do the work. If the need is unclear, ask one concise question covering setup, starting a task, choosing a skill, fixing a run, or customization.
+For a help question, explain without starting the task. A message such as "use zstack to fix this bug" asks for action: read [`zmode`](../zmode/SKILL.md) and do the work. If the need is unclear, ask one concise question covering setup, starting a task, choosing a skill, fixing a run, or customization.
 
 ## Get set up
 
 Follow the checkout's [README](../../README.md) and [setup guide](../../docs/guide/01-setup.md). Codex discovers repository skills under `.agents/skills/`; this collection's installer also supports a user-level destination. Do not run another harness's marketplace commands.
 
-Invoke a skill as `$skill-name`, such as `$zmart-mode`. The optional `$setup-zstack` writes project-local `.agents/zstack-models.md` preferences. Missing preferences mean delegates inherit the parent model and effort. The file is read by zstack; it is not native Codex model configuration or an always-applied rule. An override works only when explicitly chosen and accepted by the active tool and instructions.
+Invoke a skill as `$skill-name`, such as `$zmode`. The optional `$setup-zstack` writes project-local `.agents/zstack-models.md` preferences. Missing preferences mean delegates inherit the parent model and effort. The file is read by zstack; it is not native Codex model configuration or an always-applied rule. An override works only when explicitly chosen and accepted by the active tool and instructions.
 
 Existing explicit-only skills retain that policy in `agents/openai.yaml`. They can still be followed when the user requests them or a selected workflow composes them. Follow a skill by reading its instructions and performing its steps; do not invent a skill-execution API.
 
@@ -23,19 +23,19 @@ For cost questions, explain that independent candidates, reviewers, and reruns c
 
 ## Start a task
 
-`$zmart-mode` chooses a playbook, tracks its steps, and uses other skills when relevant. A good prompt states the goal, constraints, and an executable check for done. Read [`references/prompting.md`](references/prompting.md) before rewriting a prompt.
+`$zmode` chooses a playbook, tracks its steps, and uses other skills when relevant. A good prompt states the goal, constraints, and an executable check for done. Read [`references/prompting.md`](references/prompting.md) before rewriting a prompt.
 
-Codex does not require Cursor's Custom Mode shortcut or `/loop`. Start a new task with `$zmart-mode` and let the current run work to the stated finish condition within its tools and permissions. A skill file alone does not schedule future wakeups or ensure it remains in context forever. A recurring future task uses an available Codex Automations tool only when the user asks for scheduling. Following a running job to completion stays in the current task.
+Codex does not require Cursor's Custom Mode shortcut or `/loop`. Start a new task with `$zmode` and let the current run work to the stated finish condition within its tools and permissions. A skill file alone does not schedule future wakeups or ensure it remains in context forever. A recurring future task uses an available Codex Automations tool only when the user asks for scheduling. Following a running job to completion stays in the current task.
 
-Subagent brief files such as [`zmart-agent`](../../agents/zmart-agent.md) are ordinary Markdown. Supply their resolved paths in a Codex delegation brief when needed; do not treat the filename as a registered `subagent_type`. Delegates may share the filesystem, so give writers isolated worktrees or disjoint paths and respect the active concurrency limit. If a required tool is unavailable, report the gap and use a concrete supported fallback.
+Subagent brief files such as [`zmode-agent`](../../agents/zmode-agent.md) are ordinary Markdown. Supply their resolved paths in a Codex delegation brief when needed; do not treat the filename as a registered `subagent_type`. Delegates may share the filesystem, so give writers isolated worktrees or disjoint paths and respect the active concurrency limit. If a required tool is unavailable, report the gap and use a concrete supported fallback.
 
 ## Pick a skill
 
-Use `$zmart-mode` for a task that needs its engineering workflow. Invoke a narrower skill when the user asks for a narrower outcome. Read the target skill and provide one adapted example.
+Use `$zmode` for a task that needs its engineering workflow. Invoke a narrower skill when the user asks for a narrower outcome. Read the target skill and provide one adapted example.
 
 | The user wants to | Skill |
 |---|---|
-| Do any non-trivial task with rigor | [`$zmart-mode`](../zmart-mode/SKILL.md) |
+| Do any non-trivial task with rigor | [`$zmode`](../zmode/SKILL.md) |
 | Check that the agent understood their goal and the problem before it starts | [`$in-your-own-words`](../in-your-own-words/SKILL.md) |
 | Get a prompt rewritten deeper, not bigger, before sending it: what a top professional would add, their raw material and methods, and an outside check. It returns the prompt and doesn't do the task | [`$sharpen`](../sharpen/SKILL.md) |
 | Learn the expert words for what they're building, including words borrowed from neighboring fields, with every cited source checked, and get their description rewritten with them | [`$reframe`](../reframe/SKILL.md) |
@@ -69,10 +69,10 @@ Use `$zmart-mode` for a task that needs its engineering workflow. Invoke a narro
 | Turn what a finished task taught into skill edits | [`$reflect`](../reflect/SKILL.md) |
 | Stop agents from repeating the same mistakes in this repo | [`$correct`](../correct/SKILL.md) |
 | Build a page whose buttons call a supported bot webhook | [`$make-bot-ui`](../make-bot-ui/SKILL.md) |
-| Find their way around zstack | `$zmart-help` |
+| Find their way around zstack | `$zmode-help` |
 
 
-If a neighboring skill is missing from the table, route by its frontmatter description. The `principle-*` skills hold individual engineering rules; `$zmart-mode` reads the relevant ones. [Guide page 8](../../docs/guide/08-principles.md) lists them.
+If a neighboring skill is missing from the table, route by its frontmatter description. The `principle-*` skills hold individual engineering rules; `$zmode` reads the relevant ones. [Guide page 8](../../docs/guide/08-principles.md) lists them.
 
 Close calls:
 
@@ -83,7 +83,7 @@ Close calls:
 
 ## Playbooks
 
-Playbooks are files inside `$zmart-mode`, not separate skill commands. Describe the task or name the playbook:
+Playbooks are files inside `$zmode`, not separate skill commands. Describe the task or name the playbook:
 
 - "babysit this PR" drives it to merge-ready. It merges only if the user asks to land or merge.
 - "land the stack" uses Shipping.
@@ -99,7 +99,7 @@ Use `$architect` or the Prototype playbook to settle an uncertain design. Follow
 
 | Symptom | Response |
 |---|---|
-| The workflow drifted out of context | Restate the goal and invoke `$zmart-mode` for the current task. |
+| The workflow drifted out of context | Restate the goal and invoke `$zmode` for the current task. |
 | A follow-up was mistaken for the old task | Say "new task" and name its goal. |
 | A model preference had no effect | Confirm the file was read and the active tool permits the requested override. The file cannot change the parent chat model. |
 | A skill was not selected automatically | Check its name, discovery location, description, and `agents/openai.yaml` policy. Explicit-only invocation may be intentional. |

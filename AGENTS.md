@@ -1,6 +1,6 @@
 # Working on zstack
 
-zstack is Zwift’s Codex-native engineering workflow collection. Its main workflow is `$zmart-mode`, pronounced “smart mode.” Keep the engineering principles and playbooks usable without Cursor or Claude Code.
+zstack is Zwift’s Codex-native engineering workflow collection. Its main workflow is `$zmode`. Keep the engineering principles and playbooks usable without Cursor or Claude Code.
 
 - Public skills live in `skills/<name>/SKILL.md`. `.agents/skills/` links expose the same sources to Codex in this checkout; keep one source of truth.
 - Read the relevant skill and references before changing its workflow. Use `$skill-name` in examples. Preserve explicit-only invocation in `agents/openai.yaml`.
