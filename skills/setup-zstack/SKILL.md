@@ -15,7 +15,7 @@ Read `.agents/zstack-models.md` if it exists. Preserve the user's supported choi
 
 ## Choose preferences
 
-Use choices already provided by the user. Ask only for preferences needed to complete the setup: inheritance or supported explicit overrides, and how many independent arena candidates or reviewers to run. Two candidates and one separate judge are useful starting points; the active concurrency limit determines how many run at once. Ask a short chat question when no question tool is available.
+Use choices already provided by the user. Ask only for preferences needed to complete the setup: inheritance or supported explicit overrides, and how many independent arena candidates or reviewers to run. Three candidates and one separate judge match the default arena; the active concurrency limit determines how many run at once. Ask a short chat question when no question tool is available.
 
 An `inherit-parent` or `auto` entry means omit both model and reasoning overrides. A requested model override is usable only when the active spawn tool accepts it and higher-priority instructions permit it. Some tools require a fresh context when an override is selected; use their documented options and include all necessary grounding in the brief.
 
@@ -35,14 +35,14 @@ bug-fix: inherit-parent
 perf-issue: inherit-parent
 hillclimb: inherit-parent
 judgment and prose: inherit-parent
-arena runners: inherit-parent, inherit-parent
+arena runners: inherit-parent, inherit-parent, inherit-parent
 arena cross-judge pool: inherit-parent
 swarm workers: inherit-parent
-interrogate reviewers: inherit-parent, inherit-parent
+interrogate reviewers: inherit-parent, inherit-parent, inherit-parent
 ```
 
 Validate each role against the available delegation tool and read back the finished file. Preserve unrelated content and keep a rerun idempotent. Report the path, selected preferences, and any unsupported choice. The skills read this file on use; do not promise it is an automatically applied Codex rule.
 
 ## Verification helpers
 
-If the question involves proving app behavior and the project has no driver, mention `$create-verification-skill`. For a race or invariant that tests cannot reach, mention `$create-formal-verification-skill`. Generate either only when requested; setup does not require either workflow.
+Check whether the project has a verification skill or harness that drives its real behavior. If neither exists, offer once to generate one with `$create-verification-skill`. Separately check for a formal verification skill and, if none exists, offer once to generate one with `$create-formal-verification-skill`. Explain what each proves, respect a decline, and generate only when the user accepts. Do not ask again if their existing instructions already settle the choice.

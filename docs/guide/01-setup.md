@@ -31,7 +31,7 @@ For a cheaper run, ask for fewer candidates, narrower reviews, or a smaller scop
 
 ## Establish a verification path
 
-When setup involves proving app behavior and no driver exists, it mentions [`$create-verification-skill`](../../skills/create-verification-skill/SKILL.md), which creates `.agents/skills/verify-<app>/` and proves a real flow works before handing it over.
+When setup finds no verification skill or existing harness, it offers [`$create-verification-skill`](../../skills/create-verification-skill/SKILL.md), which creates `.agents/skills/verify-<app>/` and proves a real flow works before handing it over.
 
 For concurrency, retries, parsers, or state machines, [`$create-formal-verification-skill`](../../skills/create-formal-verification-skill/SKILL.md) can verify one property within stated bounds. These are optional additions, not prerequisites for every task. [Verify and ship](./06-verify-and-ship.md) explains both.
 

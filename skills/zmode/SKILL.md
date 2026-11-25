@@ -20,7 +20,7 @@ The remaining triggers live only here:
 - A fork you could settle by running something → prototype it per `playbooks/prototype.md` instead of asking.
 - Code → name the data shape first. Across a function boundary → **architect**. Fan-out → **swarm**. Bakeoff → **arena**. Contested design → **interrogate**.
 - Prose, your reply included → **unslop**. Docs, PR descriptions, commit messages → **technical-writing**.
-- Before commit → inspect the diff for unnecessary code. Before review → **no-comments** when comment cleanup is in scope.
+- Before commit → inspect the diff for unnecessary code. Before review → **no-comments** on the scoped diff.
 - Shipping UI / IDE / CLI → an available browser/app control tool or the project's CLI driver.
 - A number you measured → **benchmark-checklist**.
 - PR status → the **Babysit** playbook, using the bundled watcher. Landing a green stack → the **Shipping** playbook.
@@ -82,7 +82,7 @@ Read the leaf skill in full for any principle you apply. Each entry names when i
 
 Use the collaboration tools exposed by the current Codex session, such as `spawn_agent`, `send_message`, and `wait_agent`. Read their schemas first. Do not send Cursor `Task` fields, invented agent types, or background flags. The receiving chat owns the playbook and reviews every delegated result. If delegation is unavailable or disallowed, do the work directly and retain a separate review pass.
 
-Give each worker a bounded task, file ownership or an isolated worktree, the relevant instruction paths, and an observable completion check. Keep independent reads parallel and shared writes isolated. Reuse a worker when its existing state matters; otherwise provide a fresh brief. Review the actual diff and evidence before summarizing.
+Give each worker a bounded task, file ownership or an isolated worktree, the relevant instruction paths, and an observable completion check. Keep independent reads parallel and shared writes isolated. Use a fresh worker by default for each fix round, follow-up, retry, or queue item, with the original brief, later directives, and prior result. Resume a worker when its checkout, uncommitted changes, or running process is costly to transfer. Review the actual diff and evidence before summarizing.
 
 Inherit the parent model and reasoning settings by omitting overrides. `$setup-zstack` may record explicit user preferences in `.agents/zstack-models.md`. Apply only preferences that the user chose and the current tool schema supports. Never invent model slugs or silently switch vendors. When a supported override requires a fresh context, set `fork_turns: "none"` and include the necessary brief. A rejected or unavailable preference falls back to inheritance with a short note. Independent review means another reviewer with a fresh view of the artifact; model diversity is optional when explicitly configured and available.
 

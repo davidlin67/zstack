@@ -62,7 +62,7 @@ path	origin	reviewer	disposition	sha256_or_link_target
 .cursor-plugin/plugin.json	original	primary	replaced by portable root plugin.json	-
 .gitignore	original	primary	reviewed for Codex and Zwift branding	c691721a0a7fc8dbb4767221f65c0c273faf0f30ae9ae7def6a2a6192676fa10
 AGENTS.md	added	primary	reviewed for Codex and Zwift branding	5465a011dffb2ab561961575e4d97d07016fd8ab98ca390a2f998a8aac66d6fc
-NOTICE.md	added	primary	separate source attribution	a06b55be61945b31568390d5b05d0a68f62052be7ec40dcce439953b3504221a
+NOTICE.md	added	primary	separate source attribution	387b189b62471fe7ea173b50f22d7ad74f60071afd7d39facc0a55e1a7665161
 README.md	original	primary	reviewed for Codex and Zwift branding	fe23d66ce0e206d4e84c560a2d13b09ba3d86733a49364b5ef2ce081a4abf3b3
 agents/comment-reviewer.md	original	automations subagent	reviewed for Codex and Zwift branding	67d11edf8b243521b35a940e810a73e23436ed6d2345ff2e0ed86ddcf1052373
 agents/zmode-agent.md	original	automations subagent	reviewed for Codex and Zwift branding	fff02838810975036fbfc9a094e69c12e620e372721be2d7772180a075df4e1e
@@ -84,7 +84,7 @@ automations/ztriage/templates/configuration.example.yaml	original	automations su
 automations/ztriage/templates/reproduce-automation-prompt.md	original	automations subagent	reviewed for Codex and Zwift branding	c1b21bb410b164d5117d6ac1517af38c3f029f8491b04c4ae8ad83cb0fe35132
 automations/ztriage/templates/triage-automation-prompt.md	original	automations subagent	reviewed for Codex and Zwift branding	0022d9fdb3cddb7b1d0b12dc9fc082b17b700c3e4ff89a84e196412758e36577
 docs/codex-file-review.tsv	added	primary	review inventory	self
-docs/guide/01-setup.md	original	primary	reviewed for Codex and Zwift branding	1618a72410c32e25bdab1f28c6e79ab22e914874fc056d2293a3e7346a43fa3e
+docs/guide/01-setup.md	original	primary	reviewed for Codex and Zwift branding	cbc01ab0351eb0a4d03063e696a1fef8cb8856720d7942a425b7799edcdd68f7
 docs/guide/02-zmode.md	original	primary	reviewed for Codex and Zwift branding	1e6512d74b7096daf01a9e12ad693100f91c28085ac749715fbc7d020bedf08d
 docs/guide/03-understand.md	original	primary	reviewed for Codex and Zwift branding	3725da090f42c5986bb95704cfe2124c7b04c2789e4321f649a2506377581c18
 docs/guide/04-design.md	original	primary	reviewed for Codex and Zwift branding	4ca43077395819bfb19f56f1b1eb0a59731eb5f6db91d2887eeca73508b008fc
@@ -102,13 +102,13 @@ docs/guide/images/router.jpg	original	primary	image removed at user request	-
 docs/guide/images/understanding.jpg	original	primary	image removed at user request	-
 docs/guide/images/verification.jpg	original	primary	image removed at user request	-
 docs/harness/claude-code.md	original	primary	replaced by docs/harness/codex.md	-
-docs/harness/codex.md	added	primary	reviewed for Codex and Zwift branding	158006cb4d34781b9ccb13955ee8f441cb5582d1adbbedd740b2cdaa529aeb97
+docs/harness/codex.md	added	primary	reviewed for Codex and Zwift branding	ded2701042e41f08e7d01284ef1326c18dd2740b1a466dcb3dbfba6ef044502c
 plugin.json	original	primary	reviewed for Codex and Zwift branding	430617fe8ddf1df90f2f6bdded83d6cf98b1406440c9267e9010e92fecfa3563
 scripts/install-skills.py	added	primary	reviewed for Codex and Zwift branding	9b7b0c43365f39f764ffc62bec28731cab1d0c8d4c7c70212c3056f39cbf3ac9
 scripts/validate-codex.py	added	primary	reviewed for Codex and Zwift branding	b276315adcef21a5f26ae55d808e584f01a782ea91eda919b7c2062cf71e6d3e
 skills/architect/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	72ad94caaff0afa42640f9842984f9256ecdda41c65b739005b6c845669c39a6
 skills/architect/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
-skills/arena/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	57837c969fcaa1e735fe7fe84f0db061d4eb4d536d8973a4134f7dd8cc6f8d7a
+skills/arena/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	66afc00e96ceb2d6a2e2394127a7c9eb929ac3123b6d97b0c9defcedfd9179c3
 skills/arena/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
 skills/automate-me/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	e5de2804a3c04678f5ac819f568a16aae66e5ac3325b7d162f5100f5fb6fc2c7
 skills/automate-me/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
@@ -133,7 +133,7 @@ skills/how/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift b
 skills/how/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
 skills/in-your-own-words/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	0b628a0f35da18aecd2e506bf4a8ae849b2e2e02f27b33cacf2b9a0e00353dbd
 skills/in-your-own-words/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
-skills/interrogate/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	5ccb649f102d1149a28a9fd8dd23ce9c0c5a049728e4bb226a1c52bfa619a359
+skills/interrogate/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	99900f1227904ce1ccacf28456eef9459e09a642829d345b24139526d2a44d92
 skills/interrogate/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
 skills/ketchup-video/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	2c5b16f740b7b5269f3916282da73108fdcf193dcb99c650ac141b53d37f2a22
 skills/ketchup-video/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
@@ -201,7 +201,7 @@ skills/reflect/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwi
 skills/reflect/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
 skills/reframe/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	fb2158a42dc801d14837ef9069d6bc655a9fef63043eb16afb63e1c03842d7a1
 skills/reframe/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
-skills/setup-zstack/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	73e92af7d68eca17366d9edce1aa83acf41f68bdc95fb1d8a9973c9cc34e2515
+skills/setup-zstack/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	eb791e52b5f853410594741a0b57472fa4646e04dbedc7202b4a5fbf45afeb59
 skills/sharpen/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	7492fe47918f2bb5d50ca3c34d164646e7e41aca5da1341225964f0b0c1a3355
 skills/sharpen/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
 skills/show-me-your-work/SKILL.md	original	core-skills subagent	reviewed for Codex and Zwift branding	4101e0ea2fd50b0dd5f8463ed644af3651d9f055f5fccf962db04c189cbcf031
@@ -638,7 +638,7 @@ skills/zmode-help/SKILL.md	original	core-skills subagent	reviewed for Codex and 
 skills/zmode-help/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
 skills/zmode-help/references/prompting.md	original	core-skills subagent	reviewed for Codex and Zwift branding	e28927a34ec650e675d147929c280312f131c1c1963598b6ff2a5de39107accc
 skills/zmode-help/references/recipes.md	original	core-skills subagent	reviewed for Codex and Zwift branding	099da6cdb99e316409178b507602cbb7fe3e002e0f81b0a51b1787999f3a4dd5
-skills/zmode/SKILL.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	63480ee8ff5332b08e17c76f60923df23014a23e90987a58dbaaf41b1b140422
+skills/zmode/SKILL.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	3c137958b87bbcae4b68e621a0e8ab23b98b68395a1669fb744a236ca73a266a
 skills/zmode/agents/openai.yaml	added	skill owner	reviewed for Codex and Zwift branding	a1499d95abd8447558c535fe5554adcc3c9b988a0a39264a6283d430effe1e94
 skills/zmode/playbooks/authoring-a-skill.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	73430b42a9ca44138844d1dbe59a9880f98ce999c29806e9a163c34dc63b8376
 skills/zmode/playbooks/autonomous-run.md	original	mode-runtime subagent	reviewed for Codex and Zwift branding	7fd1c443b3bd1404483ab14ca6a136082c41ccaaf7a15d7ca6b6f0168cb6d7f5

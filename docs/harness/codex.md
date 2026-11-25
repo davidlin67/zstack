@@ -49,3 +49,7 @@ Platform choices were checked against the current bundled Codex manual and the t
 The repository has no image assets. The guide uses text and Mermaid diagrams. Source attribution is kept in [NOTICE.md](../../NOTICE.md). The statechart corpus is executable test data and retains its original model semantics; recorded source paths use the zstack package name.
 
 The [migration inventory](../codex-file-review.tsv) accounts for all 554 original non-Git files, including preserved OS metadata, and the files added by the migration. Git internals, dependency installs, and Python bytecode are outside the source review. Rows marked preserved were reviewed and needed no platform change.
+
+## Upstream comparison
+
+The [file comparison](../upstream-comparison.tsv) compares the upstream pstack 0.15.48 tree at commit `9e278fe4d4ecd8bfe98b1b79bf4be662efb338cc` with the corresponding zstack paths. `changed; review diff` means the bytes differ; it does not by itself establish the reason or semantic equivalence. The Cursor-only manifest, Claude adapter, and removed images are deliberately excluded. The upstream MIT license is preserved in [NOTICE.md](../../NOTICE.md). Codex adaptations use available tools and user-selected models; three inherited agents replace the upstream three-model panels by default.
