@@ -1,4 +1,4 @@
-# Zstack
+# ZStack
 
 Zwift’s Codex-native engineering workflows for design, implementation, verification, and review.
 
